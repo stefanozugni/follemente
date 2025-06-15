@@ -1,0 +1,1922 @@
+[
+    {
+        "name": "Paola Cortellesi",
+        "imdbId": "nm0181283",
+        "gender": "female",
+        "primaryEmotion": "Alfa",
+        "roles": [
+            {
+                "title": "C'è ancora domani",
+                "character": "Delia",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Come un gatto in tangenziale",
+                "character": "Monica",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Scusate se esisto!",
+                "character": "Serena Bruno",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Figli",
+                "character": "Sara",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Nessuno mi può giudicare",
+                "character": "Alice",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Gli ultimi saranno ultimi",
+                "character": "Luciana",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Ma cosa ci dice il cervello",
+                "character": "Giovanna",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Maschi contro femmine",
+                "character": "Chiara",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "La befana vien di notte",
+                "character": "Paola / Befana",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Petra",
+                "character": "Petra Delicato",
+                "emotion": "Valium"
+            }
+        ],
+        "emotions": {
+            "Alfa": 0.5,
+            "Valium": 0.3,
+            "Trilli": 0.1,
+            "Giulietta": 0.1
+        }
+    },
+    {
+        "name": "Margherita Buy",
+        "imdbId": "nm0125479",
+        "gender": "female",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "Le fate ignoranti",
+                "character": "Antonia",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Maledetto il giorno che t'ho incontrato",
+                "character": "Camilla",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Giorni e nuvole",
+                "character": "Elsa",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Viaggio sola",
+                "character": "Irene",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Il caimano",
+                "character": "Paola",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Lo spazio bianco",
+                "character": "Maria",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Mia madre",
+                "character": "Margherita",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Esterno notte",
+                "character": "Eleonora Moro",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Tre piani",
+                "character": "Dora",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La stazione",
+                "character": "Flavia",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.8,
+            "Alfa": 0.1,
+            "Giulietta": 0.1,
+            "Trilli": 0.0
+        }
+    },
+    {
+        "name": "Jasmine Trinca",
+        "imdbId": "nm0872913",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "La dea fortuna",
+                "character": "Annamaria",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Fortunata",
+                "character": "Fortunata",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Miele",
+                "character": "Irene/Miele",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Sulla mia pelle",
+                "character": "Ilaria Cucchi",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Nessuno si salva da solo",
+                "character": "Delia",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La meglio gioventù",
+                "character": "Giorgia",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La stanza del figlio",
+                "character": "Irene",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Supereroi",
+                "character": "Anna",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il colibrì",
+                "character": "Luisa Lattes",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La storia",
+                "character": "Ida Ramundo",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.5,
+            "Valium": 0.3,
+            "Alfa": 0.1,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Alba Rohrwacher",
+        "imdbId": "nm1332981",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "La solitudine dei numeri primi",
+                "character": "Alice Della Rocca",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Hungry Hearts",
+                "character": "Mina",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Perfetti sconosciuti",
+                "character": "Bianca",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Cosa voglio di più",
+                "character": "Anna",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Vergine giurata",
+                "character": "Hana/Mark",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Tre piani",
+                "character": "Monica",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Lacci",
+                "character": "Vanda (giovane)",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Figlia mia",
+                "character": "Angelica",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Lazzaro felice",
+                "character": "Antonia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Mio fratello è figlio unico",
+                "character": "Violetta",
+                "emotion": "Trilli"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.5,
+            "Valium": 0.2,
+            "Trilli": 0.2,
+            "Alfa": 0.1
+        }
+    },
+    {
+        "name": "Anna Foglietta",
+        "imdbId": "nm2214674",
+        "gender": "female",
+        "primaryEmotion": "Alfa",
+        "roles": [
+            {
+                "title": "Perfetti sconosciuti",
+                "character": "Carlotta",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Un giorno all'improvviso",
+                "character": "Miriam",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Noi e la Giulia",
+                "character": "Elisa",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Tutta colpa di Freud",
+                "character": "Sara",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La mafia uccide solo d'estate - La serie",
+                "character": "Pia",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il talento del calabrone",
+                "character": "DJ Steph",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Si vive una volta sola",
+                "character": "Lucia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "I peggiori",
+                "character": "Chiara",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Il premio",
+                "character": "Lucrezia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Mai Stati Uniti",
+                "character": "Angela",
+                "emotion": "Valium"
+            }
+        ],
+        "emotions": {
+            "Alfa": 0.5,
+            "Valium": 0.3,
+            "Giulietta": 0.2,
+            "Trilli": 0.0
+        }
+    },
+    {
+        "name": "Valeria Bruni Tedeschi",
+        "imdbId": "nm0116254",
+        "gender": "female",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "Il capitale umano",
+                "character": "Carla Bernaschi",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La pazza gioia",
+                "character": "Beatrice Morandini Valdirana",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Les Estivants",
+                "character": "Anna",
+                "emotion": "Valium"
+            },
+            {
+                "title": "È più facile per un cammello...",
+                "character": "Federica",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La Fracture",
+                "character": "Raf",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Les Amandiers",
+                "character": "Stella",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Come un gatto in tangenziale - Ritorno a Coccia di Morto",
+                "character": "Suor Ines",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Gli anni più belli",
+                "character": "Madre di Riccardo",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Un castello in Italia",
+                "character": "Louise",
+                "emotion": "Valium"
+            },
+            {
+                "title": "5x2",
+                "character": "Marion",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.6,
+            "Alfa": 0.2,
+            "Trilli": 0.1,
+            "Giulietta": 0.1
+        }
+    },
+    {
+        "name": "Micaela Ramazzotti",
+        "imdbId": "nm0708027",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "La pazza gioia",
+                "character": "Donatella",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "La prima cosa bella",
+                "character": "Anna Nigiotti in Michelucci (giovane)",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il nome del figlio",
+                "character": "Simona",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Posti in piedi in paradiso",
+                "character": "Gloria",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Anni felici",
+                "character": "Serena",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Tutta la vita davanti",
+                "character": "Sonia",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Gli anni più belli",
+                "character": "Gemma",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Una famiglia",
+                "character": "Maria",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Felicità",
+                "character": "Desiré",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Questione di cuore",
+                "character": "Rossana",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.6,
+            "Trilli": 0.3,
+            "Valium": 0.1,
+            "Alfa": 0.0
+        }
+    },
+    {
+        "name": "Valeria Golino",
+        "imdbId": "nm0000420",
+        "gender": "female",
+        "primaryEmotion": "Trilli",
+        "roles": [
+            {
+                "title": "Respiro",
+                "character": "Grazia",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Il capitale umano",
+                "character": "Roberta Morelli",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Per amor vostro",
+                "character": "Anna",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Figlia mia",
+                "character": "Tina",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "La vita bugiarda degli adulti",
+                "character": "Vittoria",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Rain Man",
+                "character": "Susanna",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Hot Shots!",
+                "character": "Ramada Thompson",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Storia d'amore",
+                "character": "Bruna",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "La guerra di Mario",
+                "character": "Giulia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Caos calmo",
+                "character": "Marta",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Trilli": 0.4,
+            "Alfa": 0.2,
+            "Valium": 0.2,
+            "Giulietta": 0.2
+        }
+    },
+    {
+        "name": "Kasia Smutniak",
+        "imdbId": "nm0810732",
+        "gender": "female",
+        "primaryEmotion": "Alfa",
+        "roles": [
+            {
+                "title": "Perfetti sconosciuti",
+                "character": "Eva",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Loro",
+                "character": "Kira",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Allacciate le cinture",
+                "character": "Elena",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Devils",
+                "character": "Nina Morgan",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "La profezia dell'armadillo",
+                "character": "Infermiera",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Moglie e marito",
+                "character": "Sofia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Benvenuto Presidente!",
+                "character": "Janis",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "3/19",
+                "character": "Camilla",
+                "emotion": "Valium"
+            },
+            {
+                "title": "From Paris with Love",
+                "character": "Caroline",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Tutta colpa di Freud",
+                "character": "Marta",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Alfa": 0.5,
+            "Giulietta": 0.2,
+            "Valium": 0.2,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Isabella Ragonese",
+        "imdbId": "nm2483259",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "Tutta la vita davanti",
+                "character": "Marta",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La nostra vita",
+                "character": "Elena",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il padre d'Italia",
+                "character": "Mia",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Sole cuore amore",
+                "character": "Eli",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Questione di cuore",
+                "character": "Infermiera",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Mio fratello rincorre i dinosauri",
+                "character": "Katia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Dieci inverni",
+                "character": "Camilla",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Come pecore in mezzo ai lupi",
+                "character": "Stefania",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Lei mi parla ancora",
+                "character": "Caterina (giovane)",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Rocco Schiavone",
+                "character": "Marina",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.6,
+            "Valium": 0.2,
+            "Alfa": 0.1,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Claudia Pandolfi",
+        "imdbId": "nm0659272",
+        "gender": "female",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "La prima cosa bella",
+                "character": "Valeria Michelucci",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Distretto di Polizia",
+                "character": "Giulia Corsi",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Baby",
+                "character": "Monica",
+                "emotion": "Valium"
+            },
+            {
+                "title": "È per il tuo bene",
+                "character": "Alice",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Se chiudo gli occhi non sono più qui",
+                "character": "Marta",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Un medico in famiglia",
+                "character": "Alice Solari",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Quando la notte",
+                "character": "Marina",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Ovosodo",
+                "character": "Susy",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "I Leoni di Sicilia",
+                "character": "Duchessa",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Ma cosa ci dice il cervello",
+                "character": "Paola",
+                "emotion": "Alfa"
+            }
+        ],
+        "emotions": {
+            "Alfa": 0.4,
+            "Valium": 0.4,
+            "Giulietta": 0.1,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Vittoria Puccini",
+        "imdbId": "nm0700018",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "Baciami ancora",
+                "character": "Giulia",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Elisa di Rivombrosa",
+                "character": "Elisa",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "18 regali",
+                "character": "Elisa",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Tutta colpa di Freud",
+                "character": "Marta",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "The Place",
+                "character": "Azzurra",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Cosa sarà",
+                "character": "Moglie di Bruno",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Acciaio",
+                "character": "Elena",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Magnifica presenza",
+                "character": "Beatrice Marni",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il processo",
+                "character": "Elena Guerra",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Vicini di casa",
+                "character": "Federica",
+                "emotion": "Valium"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.5,
+            "Valium": 0.3,
+            "Alfa": 0.2,
+            "Trilli": 0.0
+        }
+    },
+    {
+        "name": "Barbora Bobulova",
+        "imdbId": "nm0090372",
+        "gender": "female",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "Cuori puri",
+                "character": "Marta",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Scialla!",
+                "character": "Tina",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Cuore sacro",
+                "character": "Irene",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Anche libero va bene",
+                "character": "Mamma",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Immaturi",
+                "character": "Luisa",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "I nostri ragazzi",
+                "character": "Sofia",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Notti magiche",
+                "character": "Produttrice",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Brado",
+                "character": "Katia",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Il sol dell'avvenire",
+                "character": "Vera",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Hotel Gagarin",
+                "character": "Valeria",
+                "emotion": "Valium"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.5,
+            "Giulietta": 0.2,
+            "Alfa": 0.2,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Giovanna Mezzogiorno",
+        "imdbId": "nm0583703",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "L'ultimo bacio",
+                "character": "Giulia",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La finestra di fronte",
+                "character": "Giovanna",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Vincere",
+                "character": "Ida Dalser",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Love in the Time of Cholera",
+                "character": "Fermina Daza",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Napoli velata",
+                "character": "Adriana",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La bestia nel cuore",
+                "character": "Sabina",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Tornare",
+                "character": "Alice",
+                "emotion": "Valium"
+            },
+            {
+                "title": "I nostri ragazzi",
+                "character": "Clara",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Basilicata Coast to Coast",
+                "character": "Tropea Limongi",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Lacci",
+                "character": "Aldo (giovane) - Voce",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.5,
+            "Valium": 0.3,
+            "Alfa": 0.1,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Serena Rossi",
+        "imdbId": "nm2554761",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "Ammore e malavita",
+                "character": "Fatima",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Io, una giudice popolare al Maxiprocesso",
+                "character": "Caterina",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "La sposa",
+                "character": "Maria",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Mina Settembre",
+                "character": "Mina Settembre",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Io sono Mia",
+                "character": "Mia Martini",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "C'era una volta Studio Uno",
+                "character": "Rita",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Brave ragazze",
+                "character": "Maria",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Beata te",
+                "character": "Marta",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "7 ore per farti innamorare",
+                "character": "Valeria",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Diabolik",
+                "character": "Elisabeth Gay",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.6,
+            "Alfa": 0.3,
+            "Trilli": 0.1,
+            "Valium": 0.0
+        }
+    },
+    {
+        "name": "Miriam Leone",
+        "imdbId": "nm4232328",
+        "gender": "female",
+        "primaryEmotion": "Alfa",
+        "roles": [
+            {
+                "title": "Diabolik",
+                "character": "Eva Kant",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Fai bei sogni",
+                "character": "Agnese",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "1992 / 1993 / 1994",
+                "character": "Veronica Castello",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Corro da te",
+                "character": "Chiara",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Metti la nonna in freezer",
+                "character": "Claudia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "L'amore a domicilio",
+                "character": "Anna",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "In guerra per amore",
+                "character": "Flora",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Non uccidere",
+                "character": "Valeria Ferro",
+                "emotion": "Valium"
+            },
+            {
+                "title": "I leoni di Sicilia",
+                "character": "Giulia Portalupi",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Marilyn ha gli occhi neri",
+                "character": "Clara",
+                "emotion": "Trilli"
+            }
+        ],
+        "emotions": {
+            "Alfa": 0.4,
+            "Giulietta": 0.3,
+            "Trilli": 0.2,
+            "Valium": 0.1
+        }
+    },
+    {
+        "name": "Claudia Gerini",
+        "imdbId": "nm0314264",
+        "gender": "female",
+        "primaryEmotion": "Trilli",
+        "roles": [
+            {
+                "title": "Viaggi di nozze",
+                "character": "Jessica",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Ammore e malavita",
+                "character": "Donna Maria",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Grande, grosso e Verdone",
+                "character": "Enza",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Tutta colpa di Freud",
+                "character": "Claudia",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Non ti muovere",
+                "character": "Elsa",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Suburra - La serie",
+                "character": "Sara Monaschi",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "John Wick: Chapter 2",
+                "character": "Gianna D'Antonio",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "La passione di Cristo",
+                "character": "Moglie di Pilato",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Sono pazzo di Iris Blond",
+                "character": "Iris",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "A casa tutti bene",
+                "character": "Beatrice",
+                "emotion": "Valium"
+            }
+        ],
+        "emotions": {
+            "Trilli": 0.4,
+            "Alfa": 0.2,
+            "Giulietta": 0.2,
+            "Valium": 0.2
+        }
+    },
+    {
+        "name": "Sabrina Ferilli",
+        "imdbId": "nm0272227",
+        "gender": "female",
+        "primaryEmotion": "Trilli",
+        "roles": [
+            {
+                "title": "La grande bellezza",
+                "character": "Ramona",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Tutta la vita davanti",
+                "character": "Daniela",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Ferie d'agosto",
+                "character": "Marisa",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Io e lei",
+                "character": "Marina",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "The Place",
+                "character": "Suora",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "La bella vita",
+                "character": "Mirella",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Il sesso degli angeli",
+                "character": "Lena",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Svegliati amore mio",
+                "character": "Nanà",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Dalida",
+                "character": "Dalida",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Anna e i cinque",
+                "character": "Anna",
+                "emotion": "Alfa"
+            }
+        ],
+        "emotions": {
+            "Trilli": 0.4,
+            "Giulietta": 0.3,
+            "Alfa": 0.3,
+            "Valium": 0.0
+        }
+    },
+    {
+        "name": "Laura Morante",
+        "imdbId": "nm0601240",
+        "gender": "female",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "La stanza del figlio",
+                "character": "Paola",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Ricordati di me",
+                "character": "Giulia Ristuccia",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Lacci",
+                "character": "Vanda (adulta)",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Un viaggio chiamato amore",
+                "character": "Sibilla Aleramo",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Bianca",
+                "character": "Bianca",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Ferie d'agosto",
+                "character": "Cecilia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Il caimano",
+                "character": "Laura",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Assolo",
+                "character": "Flavia",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Una storia senza nome",
+                "character": "Amalia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Bob & Marys",
+                "character": "Marisa",
+                "emotion": "Valium"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.6,
+            "Alfa": 0.2,
+            "Giulietta": 0.1,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Teresa Saponangelo",
+        "imdbId": "nm0764491",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "È stata la mano di Dio",
+                "character": "Maria",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il buco in testa",
+                "character": "Teresa",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La stoffa dei sogni",
+                "character": "Maria",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "In memoria di me",
+                "character": "Madre di Andrea",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La vita in comune",
+                "character": "Erminia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Tutto il mio folle amore",
+                "character": "Marisa",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il vizio della speranza",
+                "character": "Alba",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Porzus",
+                "character": "Giselda",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Le prime nevi",
+                "character": "Martina",
+                "emotion": "Valium"
+            },
+            {
+                "title": "I falchi",
+                "character": "Donna dei falchi",
+                "emotion": "Trilli"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.5,
+            "Valium": 0.3,
+            "Alfa": 0.1,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Donatella Finocchiaro",
+        "imdbId": "nm1164969",
+        "gender": "female",
+        "primaryEmotion": "Alfa",
+        "roles": [
+            {
+                "title": "Angela",
+                "character": "Angela",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Il regista di matrimoni",
+                "character": "Bona di Gravina",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Terraferma",
+                "character": "Giulietta",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Anime nere",
+                "character": "Cosima",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Manuale d'amore 3",
+                "character": "Dorotea",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Galantuomini",
+                "character": "Lucia",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Baarìa",
+                "character": "Merciaia",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "La stranezza",
+                "character": "Maria",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Sorelle Mai",
+                "character": "Attrice",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Youtopia",
+                "character": "Laura",
+                "emotion": "Valium"
+            }
+        ],
+        "emotions": {
+            "Alfa": 0.4,
+            "Valium": 0.3,
+            "Giulietta": 0.2,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Cristiana Capotondi",
+        "imdbId": "nm0135408",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "Notte prima degli esami",
+                "character": "Claudia",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Come tu mi vuoi",
+                "character": "Giada",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La mafia uccide solo d'estate",
+                "character": "Flora",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il giovane favoloso",
+                "character": "Fanny",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La kryptonite nella borsa",
+                "character": "Titina",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Indovina chi viene a Natale?",
+                "character": "Valentina",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "7 minuti",
+                "character": "Isabella",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Nome di donna",
+                "character": "Nina",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Le fate ignoranti - La serie",
+                "character": "Antonia",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Scrivilo sui muri",
+                "character": "Sole",
+                "emotion": "Trilli"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.5,
+            "Alfa": 0.2,
+            "Trilli": 0.2,
+            "Valium": 0.1
+        }
+    },
+    {
+        "name": "Matilda De Angelis",
+        "imdbId": "nm7224213",
+        "gender": "female",
+        "primaryEmotion": "Trilli",
+        "roles": [
+            {
+                "title": "Veloce come il vento",
+                "character": "Giulia De Martino",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "The Undoing",
+                "character": "Elena Alves",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "L'incredibile storia dell'Isola delle Rose",
+                "character": "Gabriella",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Una famiglia",
+                "character": "Stella",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Il premio",
+                "character": "Britta",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Youtopia",
+                "character": "Matilde",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La legge di Lidia Poët",
+                "character": "Lidia Poët",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Atlas",
+                "character": "Allegra",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Across the River and into the Trees",
+                "character": "Renata Contarini",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Tutto può succedere",
+                "character": "Ambra",
+                "emotion": "Trilli"
+            }
+        ],
+        "emotions": {
+            "Trilli": 0.4,
+            "Valium": 0.3,
+            "Giulietta": 0.2,
+            "Alfa": 0.1
+        }
+    },
+    {
+        "name": "Benedetta Porcaroli",
+        "imdbId": "nm7834898",
+        "gender": "female",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "Baby",
+                "character": "Chiara Altieri",
+                "emotion": "Valium"
+            },
+            {
+                "title": "18 regali",
+                "character": "Anna",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La scuola cattolica",
+                "character": "Donatella Colasanti",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Il colibrì",
+                "character": "Adele",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Amanda",
+                "character": "Amanda",
+                "emotion": "Valium"
+            },
+            {
+                "title": "L'ombra del giorno",
+                "character": "Anna",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Tutto può succedere",
+                "character": "Federica",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Perfetti sconosciuti",
+                "character": "Sofia",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Enea",
+                "character": "Eva",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "7 donne e un mistero",
+                "character": "Caterina",
+                "emotion": "Alfa"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.4,
+            "Giulietta": 0.3,
+            "Trilli": 0.2,
+            "Alfa": 0.1
+        }
+    },
+    {
+        "name": "Elena Radonicich",
+        "imdbId": "nm2749038",
+        "gender": "female",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "Tutti al mare",
+                "character": "Nuda",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "In Treatment",
+                "character": "Bianca",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Alaska",
+                "character": "Francesca",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Banat - Il viaggio",
+                "character": "Clara",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La porta rossa",
+                "character": "Stella",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Genitori quasi perfetti",
+                "character": "Ilaria",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Fabrizio De André - Principe libero",
+                "character": "Enrica 'Puny' Rignon",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il mangiatore di pietre",
+                "character": "Francesca",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Sulla mia pelle",
+                "character": "PM",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "1994",
+                "character": "Giulia",
+                "emotion": "Alfa"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.4,
+            "Alfa": 0.3,
+            "Giulietta": 0.2,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Sara Serraiocco",
+        "imdbId": "nm5556102",
+        "gender": "female",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "Salvo",
+                "character": "Rita",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La ragazza del mondo",
+                "character": "Giulia",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Non odiare",
+                "character": "Marica",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Lo spietato",
+                "character": "Mariangela",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "L'ora più buia",
+                "character": "Meril",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Brutti e cattivi",
+                "character": "Rosabella",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "In viaggio con Adele",
+                "character": "Adele",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Il primo giorno della mia vita",
+                "character": "Emilia",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Counterpart",
+                "character": "Baldwin",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Io sto bene",
+                "character": "Leo",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.5,
+            "Giulietta": 0.3,
+            "Trilli": 0.2,
+            "Alfa": 0.0
+        }
+    },
+    {
+        "name": "Pina Turco",
+        "imdbId": "nm3419302",
+        "gender": "female",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "Gomorra - La serie",
+                "character": "Deborah",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il vizio della speranza",
+                "character": "Maria",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La paranza dei bambini",
+                "character": "Mamma di Nicola",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Fortuna",
+                "character": "Gina",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Un posto al sole",
+                "character": "Maddalena",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Natale in casa Cupiello",
+                "character": "Ninuccia",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "La vita bugiarda degli adulti",
+                "character": "Nella",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Qui rido io",
+                "character": "Adelina",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Il commissario Ricciardi",
+                "character": "Moglie di Maione",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "La bambina che non voleva cantare",
+                "character": "Donata",
+                "emotion": "Valium"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.5,
+            "Giulietta": 0.3,
+            "Trilli": 0.1,
+            "Alfa": 0.1
+        }
+    },
+    {
+        "name": "Denise Tantucci",
+        "imdbId": "nm5995254",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "Tre piani",
+                "character": "Charlotte",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Braccialetti rossi",
+                "character": "Nina",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Un medico in famiglia",
+                "character": "Giada",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il paradiso delle signore",
+                "character": "Laura",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Sei nell'anima",
+                "character": "Agnese",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Likemeback",
+                "character": "Carla",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Buio",
+                "character": "Stella",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Kastelruther Spatzen",
+                "character": "Eva",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Hotspot - Amore senza rete",
+                "character": "Tina",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Don Matteo",
+                "character": "Dafne",
+                "emotion": "Valium"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.5,
+            "Alfa": 0.2,
+            "Trilli": 0.2,
+            "Valium": 0.1
+        }
+    },
+    {
+        "name": "Laura Chiatti",
+        "imdbId": "nm0157096",
+        "gender": "female",
+        "primaryEmotion": "Trilli",
+        "roles": [
+            {
+                "title": "Io, loro e Lara",
+                "character": "Lara",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Baarìa",
+                "character": "Studentessa",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Ho voglia di te",
+                "character": "Step",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il caso dell'infedele Klara",
+                "character": "Klara",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Manuale d'amore 3",
+                "character": "Viola",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "La cena di Natale",
+                "character": "Chiara",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "L'amico di famiglia",
+                "character": "Rosalba",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Un'avventura",
+                "character": "Francesca",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Piazza del popolo",
+                "character": "Giulia",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Il peggior Natale della mia vita",
+                "character": "Benedetta",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Trilli": 0.5,
+            "Giulietta": 0.5,
+            "Alfa": 0.0,
+            "Valium": 0.0
+        }
+    },
+    {
+        "name": "Sveva Alviti",
+        "imdbId": "nm4823906",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "Dalida",
+                "character": "Dalida",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Lukas",
+                "character": "Lisa",
+                "emotion": "Valium"
+            },
+            {
+                "title": "The Bouncer",
+                "character": "Lisa",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Restiamo amici",
+                "character": "Marta",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Tra le onde",
+                "character": "Lea",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Love Addict",
+                "character": "Denise",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Entre les vagues",
+                "character": "Kristin",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Niente di serio",
+                "character": "Giulia",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Haters",
+                "character": "Sveva",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "AKA",
+                "character": "Natalya",
+                "emotion": "Alfa"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.5,
+            "Alfa": 0.2,
+            "Valium": 0.2,
+            "Trilli": 0.1
+        }
+    }
+]
