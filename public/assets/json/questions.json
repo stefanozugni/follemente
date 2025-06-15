@@ -7,17 +7,6 @@
         "answers": [
             {
                 "id": "A",
-                "text": "Chiedo di vederci. Spiego con calma il mio punto di vista e le ragioni che mi hanno portato a comportarmi in quel modo, non per giustificarmi, ma perché voglio che capisca la logica dietro la mia reazione.",
-                "analysis": "La logica e il controllo del `Professore`/`Alfa` dominano, cercando di analizzare e risolvere il conflitto in modo strutturato.",
-                "scores": {
-                    "professore_alfa": 3,
-                    "romeo_giulietta": 1,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "B",
                 "text": "Non mi servono grandi discorsi. Organizzo un incontro e dico: \"Mi dispiace. Ho sbagliato, ti ho ferito e sto male per questo\".",
                 "analysis": "Il sentimento puro del `Romeo`/`Giulietta` è focalizzato al 100% sul curare la ferita e ristabilire il legame emotivo.",
                 "scores": {
@@ -28,7 +17,7 @@
                 }
             },
             {
-                "id": "C",
+                "id": "B",
                 "text": "L'impulso è più forte della ragione. Mi presento di persona a sorpresa per rompere il ghiaccio e fare la pace.",
                 "analysis": "L'istinto e l'azione dell'`Eros`/`Trilli` cercano di rompere la tensione con un gesto fisico e non verbale, quasi 'spettacolare'.",
                 "scores": {
@@ -39,7 +28,7 @@
                 }
             },
             {
-                "id": "D",
+                "id": "C",
                 "text": "No, non tocca a me. Ho la mia parte di colpa, ma la sua reazione è stata esagerata e sa dove trovarmi. Aspetto che sia l'altra persona a farsi viva, per principio e per orgoglio.",
                 "analysis": "Il ritiro protettivo e orgoglioso del `Valium`/`Scheggia`. Una non-azione carica di significato, un muro eretto per non mostrare ulteriore vulnerabilità.",
                 "scores": {
@@ -47,6 +36,17 @@
                     "romeo_giulietta": 0,
                     "eros_trilli": 0,
                     "valium_scheggia": 3
+                }
+            },
+            {
+                "id": "D",
+                "text": "Chiedo di vederci. Spiego con calma il mio punto di vista e le ragioni che mi hanno portato a comportarmi in quel modo, non per giustificarmi, ma perché voglio che capisca la logica dietro la mia reazione.",
+                "analysis": "La logica e il controllo del `Professore`/`Alfa` dominano, cercando di analizzare e risolvere il conflitto in modo strutturato.",
+                "scores": {
+                    "professore_alfa": 3,
+                    "romeo_giulietta": 1,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 0
                 }
             }
         ]
@@ -59,30 +59,8 @@
         "answers": [
             {
                 "id": "A",
-                "text": "Penso a tutto quello che ho imparato e costruito: la mia carriera, le mie competenze, i progetti che ho realizzato. La mia più grande soddisfazione è aver lasciato un'impronta tangibile e un'eredità di conoscenza.",
-                "analysis": "È il trionfo del `Professore`/`Alfa`. Il valore della vita è nel sapere, nel fare e nell'eredità lasciata.",
-                "scores": {
-                    "professore_alfa": 4,
-                    "romeo_giulietta": 0,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "B",
-                "text": "Penso a tutte le persone che ho amato e che mi hanno amato. Ai figli, ai partner, agli amici. Il senso della mia vita è stato in questi legami, nelle risate e nelle lacrime condivise. L'amore è l'unica cosa che è rimasta.",
-                "analysis": "È la vittoria del `Romeo`/`Giulietta`. Il valore più alto è attribuito alle connessioni emotive, ai sentimenti e alla rete di affetti.",
-                "scores": {
-                    "professore_alfa": 0,
-                    "romeo_giulietta": 4,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "C",
                 "text": "Penso a tutte le volte che ho rischiato, alle avventure folli, ai viaggi improvvisati, alle passioni intense. Non ho rimpianti. Ogni cicatrice è una medaglia. La mia vita è stata una storia intensa, non sicura.",
-                "analysis": "È il manifesto dell'`Eros`/`Trilli` (intensità, rischio) che reinterpreta la sofferenza del `Valium`/`Scheggia` (le cicatrici) come prova di una vita vissuta pienamente.",
+                "analysis": "È il manifesto dell'`Eros`/`Trilli` (intensità, rischio) che reinterpreta la sofferenza dello `Scheggia` (le cicatrici) come prova di una vita vissuta pienamente.",
                 "scores": {
                     "professore_alfa": 0,
                     "romeo_giulietta": 0,
@@ -91,7 +69,18 @@
                 }
             },
             {
-                "id": "D",
+                "id": "B",
+                "text": "Penso a tutto quello che ho imparato e costruito: la mia carriera, le mie competenze, i progetti che ho realizzato. La mia più grande soddisfazione è aver lasciato un'impronta tangibile e un'eredità di conoscenza.",
+                "analysis": "È il trionfo puro del `Professore`/`Alfa`. Il valore della vita è nel sapere, nel fare e nell'eredità lasciata.",
+                "scores": {
+                    "professore_alfa": 4,
+                    "romeo_giulietta": 0,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 0
+                }
+            },
+            {
+                "id": "C",
                 "text": "Penso alla pace che ho finalmente raggiunto. Alle lotte interiori che ho placato, alle ansie che ho superato per arrivare a questo momento di calma. La mia più grande conquista è la serenità, il non dover più dimostrare niente a nessuno.",
                 "analysis": "È il punto d'arrivo del `Valium`/`Scheggia`. La felicità non è nell'azione o nel legame, ma nella cessazione del conflitto interiore e nel raggiungimento della pace.",
                 "scores": {
@@ -99,6 +88,17 @@
                     "romeo_giulietta": 0,
                     "eros_trilli": 0,
                     "valium_scheggia": 4
+                }
+            },
+            {
+                "id": "D",
+                "text": "Penso a tutte le persone che ho amato e che mi hanno amato. Ai figli, ai partner, agli amici. Il senso della mia vita è stato in questi legami, nelle risate e nelle lacrime condivise. L'amore è l'unica cosa che è rimasta.",
+                "analysis": "È la vittoria pura del `Romeo`/`Giulietta`. Il valore più alto è attribuito alle connessioni emotive, ai sentimenti e alla rete di affetti.",
+                "scores": {
+                    "professore_alfa": 0,
+                    "romeo_giulietta": 4,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 0
                 }
             }
         ]
@@ -111,8 +111,19 @@
         "answers": [
             {
                 "id": "A",
+                "text": "Sono affascinato/a dal 'drama' della situazione. Potrei fare qualche battuta ambigua quando sono tutti insieme o lanciare frecciatine per vedere come reagiscono. Sono curioso/a di vedere come si evolve la tensione.",
+                "analysis": "L'impulso caotico di `Trilli` si unisce al gusto per l'intensità e la passione di `Eros`. Non c'è un piano, ma il desiderio istintivo di alimentare la situazione per vedere cosa succede.",
+                "scores": {
+                    "professore_alfa": 0,
+                    "romeo_giulietta": 0,
+                    "eros_trilli": 3,
+                    "valium_scheggia": 1
+                }
+            },
+            {
+                "id": "B",
                 "text": "La mia lealtà è verso l'amico che si è confidato. Mantengo il segreto, lo ascolto senza giudizio e lo supporto emotivamente, perché in questo momento la sua fiducia è la cosa più importante per me.",
-                "analysis": "La lealtà e l'empatia della coppia `Romeo`/`Giulietta` dominano. L'amicizia viene posta al di sopra di un principio di verità assoluta.",
+                "analysis": "La lealtà e l'empatia della coppia `Romeo`/`Giulietta` dominano. L'amicizia viene posta al di sopra di un principio di verità assoluta. Il `Professore` contribuisce con la saggezza di non agire d'impulso.",
                 "scores": {
                     "professore_alfa": 1,
                     "romeo_giulietta": 3,
@@ -121,7 +132,7 @@
                 }
             },
             {
-                "id": "B",
+                "id": "C",
                 "text": "La situazione è oggettivamente sbagliata e insostenibile. Affronto il mio amico e gli dico che deve risolvere la questione e confessare, altrimenti la verità potrebbe venire a galla in modi peggiori, danneggiando tutti.",
                 "analysis": "L'approccio di `Professore`/`Alfa`. La logica e un forte senso di giustizia prendono il controllo per gestire la crisi e imporre una soluzione razionale, anche se dolorosa.",
                 "scores": {
@@ -132,7 +143,7 @@
                 }
             },
             {
-                "id": "C",
+                "id": "D",
                 "text": "Mi sento a disagio e non voglio essere complice. Dico al mio amico: 'Ti voglio bene, ma questa situazione è troppo per me. Per favore, non raccontarmi più dettagli e risolvitela da solo'. Mi ritiro per proteggermi.",
                 "analysis": "Il ritiro protettivo di `Valium`/`Scheggia`. L'ansia e il peso della situazione spingono a creare un confine netto per proteggere il proprio equilibrio emotivo, anche a costo di sembrare freddi.",
                 "scores": {
@@ -141,50 +152,17 @@
                     "eros_trilli": 0,
                     "valium_scheggia": 3
                 }
-            },
-            {
-                "id": "D",
-                "text": "Sono affascinato/a dal 'drama' della situazione. Potrei fare qualche battuta ambigua quando sono tutti insieme o lanciare frecciatine per vedere come reagiscono. Sono curioso/a di vedere come si evolve la tensione.",
-                "analysis": "L'impulso caotico di `Trilli` si unisce al gusto per l'intensità e la passione di `Eros`. Non c'è un piano, ma il desiderio istintivo di alimentare la situazione per vedere cosa succede.",
-                "scores": {
-                    "professore_alfa": 0,
-                    "romeo_giulietta": 0,
-                    "eros_trilli": 3,
-                    "valium_scheggia": 1
-                }
             }
         ]
     },
     {
         "id": 4,
         "theme": "Il Prestito all'Amico Sognatore",
-        "scenario": "Un tuo caro amico ti chiede un prestito di una somma importante per avviare un progetto che a te sembra molto fantasioso e rischioso. Tu hai i soldi da parte, ma non sei molto convinto dell'idea.",
+        "scenario": "Un tuo caro amico ti chiede un prestito importante per avviare un progetto che a te sembra molto fantasioso e rischioso. Tu hai i soldi da parte, ma non sei convinto dell'idea.",
         "question": "Cosa fai?",
         "answers": [
             {
                 "id": "A",
-                "text": "Credo in lui e nel nostro legame più che nel suo piano. I sogni sono importanti e voglio dargli una possibilità. Gli do i soldi, sperando per il meglio.",
-                "analysis": "La lealtà e l'idealismo del `Romeo`/`Giulietta` dominano. L'azione è supportata dall'energia e dal gusto per l'ignoto dell'`Eros`/`Trilli`, che abbraccia il rischio per passione.",
-                "scores": {
-                    "professore_alfa": 0,
-                    "romeo_giulietta": 3,
-                    "eros_trilli": 2,
-                    "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "B",
-                "text": "Non posso dargli i soldi così, lo manderei a sbattere. Gli dico: 'Credo in te, ma non in questo piano. Lavoriamo insieme ogni sera per renderlo solido, e poi vedremo'. Offro il mio tempo e le mie competenze.",
-                "analysis": "La logica del `Professore`/`Alfa` (il piano non è solido) si unisce all'empatia del `Romeo`/`Giulietta` (credo in te). Un'azione di supporto estremamente costruttiva e controllata.",
-                "scores": {
-                    "professore_alfa": 3,
-                    "romeo_giulietta": 2,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "C",
                 "text": "Ti voglio troppo bene per farti fare questa pazzia. Gli dico brutalmente: 'No. È un'idea terribile e non ti lascerò buttare via i soldi. Se vuoi, discutiamone per ore, ti spiego tutti i rischi, ma da me non avrai un euro'.",
                 "analysis": "La via dello `Scheggia` 'protettivo'. La sua durezza e il suo pessimismo non sono cinismo fine a se stesso, ma una forma di 'amore burbero', quasi aggressivo (`Alfa`), per proteggere l'amico da un errore certo.",
                 "scores": {
@@ -195,9 +173,31 @@
                 }
             },
             {
+                "id": "B",
+                "text": "Non posso dargli i soldi così, lo manderei a sbattere. Gli dico: 'Credo in te, ma non in questo piano. Lavoriamo insieme per renderlo solido'. Offro il mio tempo e le mie competenze.",
+                "analysis": "La logica del `Professore`/`Alfa` (il piano non è solido) si unisce all'empatia del `Romeo`/`Giulietta` (credo in te). Un'azione di supporto estremamente costruttiva e controllata.",
+                "scores": {
+                    "professore_alfa": 3,
+                    "romeo_giulietta": 2,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 0
+                }
+            },
+            {
+                "id": "C",
+                "text": "Credo in lui e nel nostro legame più che nel suo piano. I sogni sono importanti e voglio dargli una possibilità. Gli do i soldi, sperando per il meglio.",
+                "analysis": "La lealtà e l'idealismo di `Romeo`/`Giulietta` dominano. L'azione è supportata dall'energia e dal gusto per l'ignoto di `Eros`/`Trilli`, che abbraccia il rischio per passione.",
+                "scores": {
+                    "professore_alfa": 0,
+                    "romeo_giulietta": 3,
+                    "eros_trilli": 2,
+                    "valium_scheggia": 0
+                }
+            },
+            {
                 "id": "D",
-                "text": "La situazione mi mette a disagio. Non voglio né ferirlo con un 'no' secco, né rischiare i miei soldi. Prendo tempo con una frase vaga come 'Ci devo pensare, è un momento complicato per me', sperando che la questione si risolva da sola.",
-                "analysis": "Il `Valium` domina con il suo bisogno di anestetizzare e rimandare il conflitto. È supportato dalla ritirata protettiva dello `Scheggia`, che vuole evitare il problema e la responsabilità, sentendosi inadeguato a gestirla.",
+                "text": "La situazione mi mette a disagio. Prendo tempo con una frase vaga come 'Ci devo pensare, è un momento complicato per me', sperando che la questione si risolva da sola.",
+                "analysis": "Il `Valium` domina con il suo bisogno di anestetizzare e rimandare il conflitto. È supportato dalla ritirata protettiva dello `Scheggia`, che vuole evitare il problema e la responsabilità.",
                 "scores": {
                     "professore_alfa": 0,
                     "romeo_giulietta": 1,
@@ -210,13 +210,13 @@
     {
         "id": 5,
         "theme": "L'Offerta di Lavoro Lontana",
-        "scenario": "Ricevi un'offerta per il lavoro dei tuoi sogni: è prestigioso, ben pagato e ti permetterebbe una crescita incredibile, ma richiede di trasferirti da solo/a dall'altra parte del mondo.",
+        "scenario": "Ricevi un'offerta per il lavoro dei tuoi sogni: prestigioso, ben pagato, ma richiede di trasferirti da solo/a dall'altra parte del mondo.",
         "question": "Quale fattore pesa di più sulla tua decisione finale?",
         "answers": [
             {
                 "id": "A",
-                "text": "La crescita professionale. È un'opportunità che capita una sola volta nella vita. Faccio un'analisi logica di costi, benefici e piano di carriera. Se i numeri tornano, parto. Gli affetti si gestiranno.",
-                "analysis": "La logica e l'ambizione del `Professore`/`Alfa` dominano. La decisione è strategica, basata su dati e sul controllo del proprio futuro professionale, mettendo in secondo piano l'aspetto emotivo.",
+                "text": "La crescita professionale. È un'opportunità unica. Faccio un'analisi logica di costi, benefici e piano di carriera. Se i numeri tornano, parto. Gli affetti si gestiranno a distanza.",
+                "analysis": "La logica e l'ambizione del `Professore`/`Alfa` dominano. La decisione è strategica, basata su dati e sul controllo del proprio futuro, mettendo in secondo piano l'aspetto emotivo.",
                 "scores": {
                     "professore_alfa": 3,
                     "valium_scheggia": 1,
@@ -226,19 +226,8 @@
             },
             {
                 "id": "B",
-                "text": "La distanza dai miei affetti. L'idea di essere così lontano/a dalla mia famiglia, dal partner o dagli amici più cari è un dolore troppo grande. Nessuna carriera vale il prezzo di quei legami.",
-                "analysis": "Il cuore del `Romeo`/`Giulietta` detta la scelta. La priorità assoluta è la connessione emotiva e la vicinanza alle persone amate, anche a costo di un sacrificio professionale.",
-                "scores": {
-                    "professore_alfa": 0,
-                    "romeo_giulietta": 3,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 2
-                }
-            },
-            {
-                "id": "C",
-                "text": "L'avventura! Un nuovo paese, una nuova cultura, una vita tutta da costruire. L'idea di buttarmi in un'esperienza così totalizzante ed eccitante è la vera motivazione. Parto per l'emozione, prima ancora che per il lavoro.",
-                "analysis": "L'istinto dell'`Eros`/`Trilli` è la forza motrice. La scelta non è razionale né puramente sentimentale, ma basata sul desiderio di intensità, novità e sulla gioia impulsiva della scoperta.",
+                "text": "L'avventura! Un nuovo paese, una nuova cultura. L'idea di buttarmi in un'esperienza così eccitante è la vera motivazione. Parto per l'emozione, prima ancora che per il lavoro.",
+                "analysis": "L'istinto dell'`Eros`/`Trilli` è la forza motrice. La scelta è basata sul desiderio di intensità, novità e sulla gioia impulsiva della scoperta.",
                 "scores": {
                     "professore_alfa": 1,
                     "romeo_giulietta": 0,
@@ -247,9 +236,20 @@
                 }
             },
             {
+                "id": "C",
+                "text": "La distanza dai miei affetti. L'idea di essere così lontano/a dalla mia famiglia, partner o amici più cari è un dolore troppo grande. Nessuna carriera vale il prezzo di quei legami.",
+                "analysis": "Il cuore del `Romeo`/`Giulietta` detta la scelta. La priorità assoluta è la connessione emotiva, supportata dalla paura (`Valium`) della solitudine.",
+                "scores": {
+                    "professore_alfa": 0,
+                    "romeo_giulietta": 3,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 2
+                }
+            },
+            {
                 "id": "D",
-                "text": "La paura dell'ignoto. È un passo troppo grande, troppo spaventoso. L'idea di dover ricostruire tutto da zero, da solo/a, mi paralizza. Finisco per rifiutare, preferendo la sicurezza di ciò che già conosco.",
-                "analysis": "Il ritiro protettivo del `Valium`/`Scheggia`. L'ansia per il cambiamento e la paura di fallire sono così forti da bloccare l'azione. Si sceglie la stasi per proteggersi da un potenziale dolore o da uno stress insostenibile.",
+                "text": "La paura dell'ignoto. È un passo troppo grande. L'idea di dover ricostruire tutto da zero, da solo/a, mi paralizza. Finisco per rifiutare, preferendo la sicurezza di ciò che già conosco.",
+                "analysis": "Il ritiro protettivo del `Valium`/`Scheggia`. L'ansia per il cambiamento e la paura di fallire sono così forti da bloccare l'azione, preferendo la stasi.",
                 "scores": {
                     "professore_alfa": 0,
                     "romeo_giulietta": 1,
@@ -262,24 +262,13 @@
     {
         "id": 6,
         "theme": "La Festa con Sconosciuti",
-        "scenario": "Vieni invitato/a a una festa dove conosci a malapena chi ti ha invitato e nessun altro. L'ambiente è affollato e la musica è alta.",
+        "scenario": "Vieni invitato/a a una festa dove conosci a malapena chi ti ha invitato. L'ambiente è affollato e la musica è alta.",
         "question": "Come passi la maggior parte della tua serata?",
         "answers": [
             {
                 "id": "A",
-                "text": "Mi sento a disagio. Prendo un drink, cerco un angolo tranquillo o un balcone da cui poter osservare gli altri senza essere al centro dell'attenzione. Parlo solo se qualcuno mi interpella e probabilmente cerco una scusa per andarmene presto.",
-                "analysis": "È la reazione protettiva di `Valium`/`Scheggia`. L'ansia sociale (`Valium`) porta a un ritiro fisico e mentale (`Scheggia`) per proteggersi da uno stress percepito come eccessivo.",
-                "scores": {
-                    "professore_alfa": 1,
-                    "romeo_giulietta": 0,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 3
-                }
-            },
-            {
-                "id": "B",
-                "text": "Non amo la superficialità dei grandi gruppi. Vago un po', osservo le persone e cerco di individuare qualcuno o un piccolo gruppo che mi sembra interessante. Il mio obiettivo è iniziare una conversazione profonda e tornare a casa avendo conosciuto davvero una persona.",
-                "analysis": "L'approccio di `Romeo`/`Giulietta`, che cerca la connessione emotiva e la qualità dei legami piuttosto che la quantità. È supportato da un tocco di `Professore` nell'analisi e nell'osservazione iniziale.",
+                "text": "Vago un po', osservo e cerco di individuare qualcuno o un piccolo gruppo che mi sembra interessante. Il mio obiettivo è iniziare una conversazione profonda e tornare a casa avendo conosciuto davvero una persona.",
+                "analysis": "L'approccio di `Romeo`/`Giulietta`, che cerca la connessione emotiva e la qualità dei legami. È supportato da un tocco di `Professore` nell'analisi iniziale dell'ambiente.",
                 "scores": {
                     "professore_alfa": 1,
                     "romeo_giulietta": 3,
@@ -288,24 +277,35 @@
                 }
             },
             {
-                "id": "C",
-                "text": "Fantastico! Vado subito verso il punto più affollato, vicino alla musica. Mi presento facilmente, scherzo, ballo e mi butto nella mischia. Sono lì per divertirmi, assorbire l'energia della festa e vedere cosa succede.",
-                "analysis": "La via di `Eros`/`Trilli`. La ricerca di stimoli, intensità ed energia (`Eros`) si unisce alla spontaneità, alla giocosità e all'impulsività socievole di `Trilli`.",
-                "scores": {
-                    "professore_alfa": 0,
-                    "romeo_giulietta": 1,
-                    "eros_trilli": 3,
-                    "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "D",
-                "text": "La vedo come un'opportunità. Giro attivamente tra i vari gruppi, mi presento con sicurezza e cerco di intavolare conversazioni stimolanti. È un'occasione per ampliare la mia rete di conoscenze, professionali o personali.",
-                "analysis": "L'approccio proattivo e orientato all'obiettivo di `Alfa`/`Professore`. L'`Alfa` prende l'iniziativa e gestisce la situazione sociale, mentre il `Professore` cerca lo stimolo intellettuale e l'efficienza nelle interazioni.",
+                "id": "B",
+                "text": "La vedo come un'opportunità. Giro attivamente tra i vari gruppi, mi presento e cerco di intavolare conversazioni stimolanti, per ampliare la mia rete di conoscenze.",
+                "analysis": "L'approccio proattivo di `Alfa`/`Professore`. L'`Alfa` prende l'iniziativa e gestisce la situazione, mentre il `Professore` cerca lo stimolo intellettuale e l'efficienza nelle interazioni.",
                 "scores": {
                     "professore_alfa": 3,
                     "romeo_giulietta": 0,
                     "eros_trilli": 1,
+                    "valium_scheggia": 0
+                }
+            },
+            {
+                "id": "C",
+                "text": "Mi sento a disagio. Prendo un drink, cerco un angolo tranquillo da cui poter osservare. Parlo solo se qualcuno mi interpella e probabilmente cerco una scusa per andarmene presto.",
+                "analysis": "È la reazione protettiva di `Valium`/`Scheggia`. L'ansia sociale (`Valium`) porta a un ritiro fisico e mentale (`Scheggia`) per proteggersi da uno stress eccessivo.",
+                "scores": {
+                    "professore_alfa": 1,
+                    "romeo_giulietta": 0,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 3
+                }
+            },
+            {
+                "id": "D",
+                "text": "Fantastico! Vado subito verso il punto più affollato. Mi presento facilmente, scherzo, ballo, mi butto nella mischia. Sono lì per divertirmi e assorbire l'energia della festa.",
+                "analysis": "La via di `Eros`/`Trilli`. La ricerca di stimoli e intensità (`Eros`) si unisce alla spontaneità e all'impulsività socievole di `Trilli`.",
+                "scores": {
+                    "professore_alfa": 0,
+                    "romeo_giulietta": 1,
+                    "eros_trilli": 3,
                     "valium_scheggia": 0
                 }
             }
@@ -314,13 +314,24 @@
     {
         "id": 7,
         "theme": "L'Arrivo in Ritardo",
-        "scenario": "Sei in terribile ritardo a un appuntamento importante. L'altra persona ti sta già aspettando da un po'. Finalmente arrivi.",
+        "scenario": "Sei in terribile ritardo a un appuntamento importante. L'altra persona ti sta già aspettando. Finalmente arrivi.",
         "question": "Qual è la primissima cosa che dici o fai?",
         "answers": [
             {
                 "id": "A",
-                "text": "Mi scuso profusamente, concentrandomi sul disagio che ho creato: \"Ti prego, scusami! Mi dispiace tantissimo averti fatto aspettare, spero tu non sia arrabbiato/a. Stai bene? Ti sei annoiato/a?\"",
-                "analysis": "La reazione di `Romeo`/`Giulietta`, che si focalizza immediatamente sull'emozione dell'altro e sulla cura della relazione, mostrando vulnerabilità e pentimento per ristabilire la connessione.",
+                "text": "Fornisco una spiegazione logica e dettagliata: \"Scusa il ritardo. C'era un blocco del traffico inaspettato in via X...\"",
+                "analysis": "L'approccio del `Professore`/`Alfa`. La priorità è spiegare i fatti e razionalizzare l'errore per riprendere il controllo.",
+                "scores": {
+                    "professore_alfa": 3,
+                    "romeo_giulietta": 1,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 0
+                }
+            },
+            {
+                "id": "B",
+                "text": "Mi scuso profusamente, concentrandomi sul disagio che ho creato: \"Ti prego, scusami! Mi dispiace averti fatto aspettare. Stai bene?\"",
+                "analysis": "La reazione di `Romeo`/`Giulietta`, che si focalizza immediatamente sull'emozione dell'altro e sulla cura della relazione.",
                 "scores": {
                     "professore_alfa": 0,
                     "romeo_giulietta": 3,
@@ -329,36 +340,25 @@
                 }
             },
             {
-                "id": "B",
-                "text": "Fornisco una spiegazione logica e dettagliata, quasi come un rapporto: \"Scusa il ritardo. C'è stato un incidente in tangenziale che ha bloccato tutto, ho provato a fare una strada alternativa ma era peggio...\"",
-                "analysis": "L'approccio del `Professore`/`Alfa`. La priorità è spiegare i fatti, razionalizzare l'errore e riprendere il controllo della situazione attraverso una narrazione logica e inattaccabile, piuttosto che emotiva.",
-                "scores": {
-                    "professore_alfa": 3,
-                    "romeo_giulietta": 1,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 0
-                }
-            },
-            {
                 "id": "C",
-                "text": "Cerco di sdrammatizzare con energia, quasi ignorando la negatività del momento: \"Eccomi! Ce l'ho fatta! Non hai idea di cosa mi è successo... ma ora sono qui! Ordiniamo subito qualcosa di buono!\"",
-                "analysis": "L'istinto di `Eros`/`Trilli`. Si evita la scusa formale e si cerca di superare l'imbarazzo con un'esplosione di energia (`Eros`) e un racconto un po' caotico e performativo (`Trilli`), spostando subito l'attenzione sull'azione successiva.",
-                "scores": {
-                    "professore_alfa": 0,
-                    "romeo_giulietta": 1,
-                    "eros_trilli": 3,
-                    "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "D",
-                "text": "Dico semplicemente \"Eccomi, scusa\" con un cenno, e poi cerco di cambiare subito argomento o mi concentro sul menù, sperando di superare l'imbarazzo il più in fretta possibile.",
-                "analysis": "Il ritiro protettivo di `Scheggia`/`Valium`. La scusa è ridotta al minimo per evitare un confronto emotivo (`Scheggia`), e si cerca di anestetizzare l'imbarazzo sociale (`Valium`) passando immediatamente ad altro. È una fuga dalla situazione.",
+                "text": "Dico semplicemente \"Eccomi, scusa\" e cerco di cambiare subito argomento, sperando di superare l'imbarazzo il più in fretta possibile.",
+                "analysis": "Il ritiro protettivo di `Scheggia`/`Valium`. La scusa è ridotta al minimo per evitare un confronto emotivo e anestetizzare l'imbarazzo.",
                 "scores": {
                     "professore_alfa": 1,
                     "romeo_giulietta": 0,
                     "eros_trilli": 0,
                     "valium_scheggia": 3
+                }
+            },
+            {
+                "id": "D",
+                "text": "Cerco di sdrammatizzare con energia: \"Eccomi! Ce l'ho fatta! Non hai idea di cosa mi è successo... ma ora sono qui! Ordiniamo subito!\"",
+                "analysis": "L'istinto di `Eros`/`Trilli`. Si supera l'imbarazzo con un'esplosione di energia (`Eros`) e un racconto performativo (`Trilli`).",
+                "scores": {
+                    "professore_alfa": 0,
+                    "romeo_giulietta": 1,
+                    "eros_trilli": 3,
+                    "valium_scheggia": 0
                 }
             }
         ]
@@ -366,35 +366,13 @@
     {
         "id": 8,
         "theme": "Il Primo Appuntamento",
-        "scenario": "Devi organizzare un primo appuntamento con una persona che ti interessa molto. Vuoi fare una buona impressione, ma vuoi anche sentirti a tuo agio.",
+        "scenario": "Devi organizzare un primo appuntamento con una persona che ti interessa molto.",
         "question": "Quale di queste opzioni scegli, perché ti rappresenta di più?",
         "answers": [
             {
                 "id": "A",
-                "text": "Una cena in un piccolo ristorante tranquillo e accogliente, seguita da una passeggiata. Voglio creare un'atmosfera che favorisca il dialogo, l'intimità e la possibilità di conoscersi davvero, guardandosi negli occhi.",
-                "analysis": "La via di `Romeo`/`Giulietta`, che privilegia la connessione emotiva, l'intimità e un romanticismo classico. L'obiettivo è la conoscenza profonda dell'altro, non la performance sociale.",
-                "scores": {
-                    "professore_alfa": 1,
-                    "romeo_giulietta": 3,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "B",
-                "text": "Un concerto, un locale con musica dal vivo o un posto affollato dove bere qualcosa. Voglio un'atmosfera carica di energia, poco formale, dove si possa ridere, ballare e vedere come l'altra persona si muove nel mondo, senza la pressione di una conversazione a due.",
-                "analysis": "L'approccio di `Eros`/`Trilli`. La ricerca di stimoli sensoriali e di alta energia (`Eros`) si unisce al desiderio di un'interazione spontanea e giocosa (`Trilli`), dove il linguaggio del corpo conta quanto le parole.",
-                "scores": {
-                    "professore_alfa": 0,
-                    "romeo_giulietta": 1,
-                    "eros_trilli": 3,
-                    "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "C",
-                "text": "Una visita a una mostra d'arte, a un museo particolare o a una fiera del libro. È un modo per avere subito uno spunto di conversazione intelligente, capire i suoi gusti e condividere un'esperienza culturale.",
-                "analysis": "La scelta del `Professore`/`Alfa`. Si cerca uno stimolo intellettuale (`Professore`) e si gestisce l'appuntamento attraverso un'attività strutturata e culturalmente elevata (`Alfa`), dimostrando i propri interessi.",
+                "text": "Una visita a una mostra d'arte o a un museo particolare. È un modo per avere subito uno spunto di conversazione intelligente e capire i suoi gusti.",
+                "analysis": "La scelta del `Professore`/`Alfa`. Si cerca uno stimolo intellettuale (`Professore`) e si gestisce l'appuntamento attraverso un'attività strutturata (`Alfa`).",
                 "scores": {
                     "professore_alfa": 3,
                     "romeo_giulietta": 1,
@@ -403,14 +381,36 @@
                 }
             },
             {
-                "id": "D",
-                "text": "Un caffè o una birra veloce in un pub informale. Una cosa di un'ora al massimo, a basso impegno. Se non c'è sintonia, ci si può salutare senza imbarazzo. Non sopporto le grandi aspettative dei primi appuntamenti.",
-                "analysis": "La via protettiva di `Scheggia`/`Valium`. La scelta di minimizzare le aspettative e lo sforzo (`Scheggia`) è un modo per anestetizzare (`Valium`) la potenziale ansia da prestazione e il rischio di delusione.",
+                "id": "B",
+                "text": "Un caffè o una birra veloce in un pub informale. Una cosa a basso impegno. Se non c'è sintonia, ci si saluta senza imbarazzo. Non sopporto le grandi aspettative.",
+                "analysis": "La via protettiva di `Scheggia`/`Valium`. Si minimizzano le aspettative (`Scheggia`) per anestetizzare (`Valium`) la potenziale ansia da prestazione.",
                 "scores": {
                     "professore_alfa": 0,
                     "romeo_giulietta": 0,
                     "eros_trilli": 1,
                     "valium_scheggia": 3
+                }
+            },
+            {
+                "id": "C",
+                "text": "Un concerto o un locale con musica dal vivo. Voglio un'atmosfera carica di energia, poco formale, dove vedere come l'altra persona si muove nel mondo.",
+                "analysis": "L'approccio di `Eros`/`Trilli`. La ricerca di stimoli sensoriali (`Eros`) si unisce al desiderio di un'interazione spontanea (`Trilli`).",
+                "scores": {
+                    "professore_alfa": 0,
+                    "romeo_giulietta": 1,
+                    "eros_trilli": 3,
+                    "valium_scheggia": 0
+                }
+            },
+            {
+                "id": "D",
+                "text": "Una cena in un piccolo ristorante tranquillo, seguita da una passeggiata. Voglio un'atmosfera che favorisca il dialogo e l'intimità.",
+                "analysis": "La via di `Romeo`/`Giulietta`, che privilegia la connessione emotiva e un romanticismo classico.",
+                "scores": {
+                    "professore_alfa": 1,
+                    "romeo_giulietta": 3,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 0
                 }
             }
         ]
@@ -423,19 +423,8 @@
         "answers": [
             {
                 "id": "A",
-                "text": "Spero in qualcosa di lussuoso, audace e un po' folle. Un trattamento in una spa esclusiva, un oggetto costoso che desideravo, o i biglietti per un grande evento. Voglio sentirmi viziato/a e vivere un'emozione forte e memorabile.",
-                "analysis": "È il desiderio di `Eros`, che cerca il piacere sensoriale, l'intensità e la gratificazione. È supportato da `Trilli`, che ama la grandiosità del gesto, la sorpresa e l'elemento giocoso e non convenzionale.",
-                "scores": {
-                    "professore_alfa": 0,
-                    "romeo_giulietta": 1,
-                    "eros_trilli": 3,
-                    "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "B",
-                "text": "Spero che abbia prenotato un weekend romantico solo per noi due in un posto che ha un significato speciale per la nostra storia. Il mio desiderio più grande è un momento di pura connessione emotiva, lontano da tutto e tutti.",
-                "analysis": "Il cuore di `Romeo`/`Giulietta` desidera intimità, condivisione e romanticismo. È un desiderio di connessione sentimentale, supportato da un tocco di `Valium` nel voler 'fuggire' dalla routine per trovare pace nella coppia.",
+                "text": "Spero che abbia prenotato un weekend romantico solo per noi due in un posto speciale per la nostra storia. Desidero un momento di pura connessione, lontano da tutto.",
+                "analysis": "Il cuore di `Romeo`/`Giulietta` desidera intimità e romanticismo, supportato da un tocco di `Valium` nel voler 'fuggire' dalla routine.",
                 "scores": {
                     "professore_alfa": 0,
                     "romeo_giulietta": 3,
@@ -444,9 +433,9 @@
                 }
             },
             {
-                "id": "C",
-                "text": "Onestamente? Spero che la sorpresa sia proprio questa: che abbia pensato a tutto lui/lei e che io non debba fare assolutamente nulla. La mia gioia più grande sarebbe una serata tranquilla sul divano, con una cena ordinata e nessun obbligo di festeggiare.",
-                "analysis": "Questa è la via del `Valium`/`Scheggia`. Il desiderio non è un'azione, ma la sua assenza. È la ricerca di pace dall'ansia da prestazione sociale (`Valium`), unita a una stanchezza quasi cinica verso le celebrazioni forzate (`Scheggia`).",
+                "id": "B",
+                "text": "Onestamente? Spero che la sorpresa sia che io non debba fare nulla. La mia gioia più grande sarebbe una serata tranquilla sul divano, senza l'obbligo di festeggiare.",
+                "analysis": "La via del `Valium`/`Scheggia`. La ricerca di pace dall'ansia sociale (`Valium`), unita a una stanchezza cinica verso le celebrazioni forzate (`Scheggia`).",
                 "scores": {
                     "professore_alfa": 1,
                     "romeo_giulietta": 0,
@@ -455,13 +444,24 @@
                 }
             },
             {
-                "id": "D",
-                "text": "Spero mi abbia regalato qualcosa di 'intelligente' e pensato. I biglietti per quello spettacolo teatrale d'avanguardia, l'iscrizione a un corso che volevamo fare, o quell'oggetto di design che migliora la nostra casa. Un gesto che dimostra che conosce i miei interessi.",
-                "analysis": "È la via del `Professore`/`Alfa`. Il `Professore` valuta il regalo in base alla sua utilità, al suo stimolo intellettuale e culturale. L'`Alfa` apprezza il gesto ben pianificato, la qualità e il controllo dimostrato nella scelta.",
+                "id": "C",
+                "text": "Spero mi abbia regalato qualcosa di 'intelligente'. I biglietti per uno spettacolo d'avanguardia o quell'oggetto di design che migliora la nostra casa. Un gesto che dimostra che conosce i miei interessi.",
+                "analysis": "È la via del `Professore`/`Alfa`. Si valuta il regalo per la sua utilità e stimolo intellettuale (`Professore`) e si apprezza il gesto ben pianificato (`Alfa`).",
                 "scores": {
                     "professore_alfa": 3,
                     "romeo_giulietta": 1,
                     "eros_trilli": 0,
+                    "valium_scheggia": 0
+                }
+            },
+            {
+                "id": "D",
+                "text": "Spero in qualcosa di lussuoso e un po' folle. Un trattamento in una spa esclusiva o i biglietti per un grande evento. Voglio sentirmi viziato/a e vivere un'emozione forte.",
+                "analysis": "È il desiderio di `Eros` (piacere sensoriale, intensità) supportato da `Trilli` (amore per la grandiosità e la sorpresa).",
+                "scores": {
+                    "professore_alfa": 0,
+                    "romeo_giulietta": 1,
+                    "eros_trilli": 3,
                     "valium_scheggia": 0
                 }
             }
@@ -470,24 +470,13 @@
     {
         "id": 10,
         "theme": "L'Amico Ossessionato",
-        "scenario": "Un tuo caro amico ti parla per l'ennesima volta, in modo quasi ossessivo, della sua cotta per una persona irraggiungibile. La situazione è chiaramente senza speranza, ma lui non riesce a superarla.",
+        "scenario": "Un tuo caro amico ti parla per l'ennesima volta, in modo ossessivo, della sua cotta per una persona irraggiungibile.",
         "question": "Qual è la tua reazione prevalente?",
         "answers": [
             {
                 "id": "A",
-                "text": "Lo ascolto di nuovo con pazienza. Evidentemente ha bisogno di sfogarsi e il mio ruolo di amico è offrire una spalla su cui piangere e uno spazio sicuro per le sue emozioni, senza giudicare o forzare soluzioni.",
-                "analysis": "È l'approccio di `Romeo`/`Giulietta`, che offre supporto emotivo incondizionato. La priorità è la connessione e il conforto, anche se la situazione è stagnante. C'è un tocco di `Valium` nella passività dell'ascolto.",
-                "scores": {
-                    "professore_alfa": 0,
-                    "romeo_giulietta": 3,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 1
-                }
-            },
-            {
-                "id": "B",
-                "text": "Lo interrompo con gentilezza e gli dico: \"Ok, capisco che stai male, ma parlarne così non ti aiuta. Cambiamo approccio. Facciamo un piano d'azione: ti iscrivo in palestra con me, usciamo, facciamo un piccolo viaggio. Bisogna agire.\"",
-                "analysis": "La via del `Professore`/`Alfa`. Si analizza che il metodo attuale è inefficace (`Professore`) e si prende il controllo della situazione (`Alfa`) proponendo un piano concreto e strategico per produrre un cambiamento.",
+                "text": "Lo interrompo e gli dico: \"Ok, ma parlarne così non ti aiuta. Facciamo un piano d'azione: ti iscrivo in palestra con me, usciamo. Bisogna agire.\"",
+                "analysis": "La via del `Professore`/`Alfa`. Si analizza l'inefficacia del metodo (`Professore`) e si prende il controllo (`Alfa`) con un piano strategico.",
                 "scores": {
                     "professore_alfa": 3,
                     "romeo_giulietta": 1,
@@ -496,9 +485,9 @@
                 }
             },
             {
-                "id": "C",
-                "text": "Non lo lascio nemmeno iniziare. Lo prendo e gli dico: \"Adesso basta. Vestiti, usciamo. Andiamo a fare qualcosa di divertente, ti presento gente nuova. La vita è fuori, non nella tua testa\". La migliore cura è la distrazione.",
-                "analysis": "L'intervento di `Eros`/`Trilli`. Si combatte l'energia negativa con un'esplosione di energia positiva e fisica (`Eros`). L'azione è impulsiva e mira a creare uno shock di vitalità e divertimento (`Trilli`).",
+                "id": "B",
+                "text": "Non lo lascio finire. Lo prendo e gli dico: \"Basta piangersi addosso. Vestiti, usciamo a divertirci. La migliore cura è la distrazione\".",
+                "analysis": "L'intervento di `Eros`/`Trilli`. Si combatte l'energia negativa con un'esplosione di energia positiva e fisica (`Eros`) e un'azione impulsiva (`Trilli`).",
                 "scores": {
                     "professore_alfa": 0,
                     "romeo_giulietta": 1,
@@ -507,14 +496,25 @@
                 }
             },
             {
-                "id": "D",
-                "text": "Perdo la pazienza e gli dico brutalmente la verità: \"Senti, questa storia è diventata patetica e non ne posso più. Devi smetterla. Te lo dico perché ti voglio bene, ma non sono disposto/a ad ascoltarti ancora\".",
-                "analysis": "È la via dello `Scheggia` 'protettivo' o 'amore burbero'. La durezza e il cinismo (`Scheggia`) sono usati come strumento per dare una scossa, un'azione quasi aggressiva (`Alfa`) che mira a rompere lo schema per il bene dell'amico.",
+                "id": "C",
+                "text": "Perdo la pazienza e gli dico brutalmente: \"Senti, questa storia è diventata patetica. Devi smetterla. Te lo dico perché ti voglio bene, ma non ti ascolto più\".",
+                "analysis": "È la via dello `Scheggia` 'protettivo' o 'amore burbero'. La durezza (`Scheggia`) è usata come strumento per dare una scossa, un'azione quasi aggressiva (`Alfa`) per il bene dell'amico.",
                 "scores": {
                     "professore_alfa": 1,
                     "romeo_giulietta": 0,
                     "eros_trilli": 0,
                     "valium_scheggia": 3
+                }
+            },
+            {
+                "id": "D",
+                "text": "Lo ascolto di nuovo con pazienza. Il mio ruolo è offrire una spalla su cui piangere e uno spazio sicuro per le sue emozioni, senza giudicare.",
+                "analysis": "È l'approccio di `Romeo`/`Giulietta` (supporto emotivo incondizionato), con un tocco di `Valium` nella passività dell'ascolto.",
+                "scores": {
+                    "professore_alfa": 0,
+                    "romeo_giulietta": 3,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 1
                 }
             }
         ]
@@ -522,24 +522,24 @@
     {
         "id": 11,
         "theme": "La Critica Ingiusta",
-        "scenario": "Durante una riunione importante, un tuo superiore critica pubblicamente e in modo palesemente ingiusto il tuo lavoro, attribuendoti un errore non tuo.",
+        "scenario": "Durante una riunione, un superiore critica pubblicamente e ingiustamente il tuo lavoro.",
         "question": "Qual è la tua reazione immediata?",
         "answers": [
             {
                 "id": "A",
-                "text": "Non reagisco d'impulso per non fare scenate. Ascolto in silenzio, prendo appunti precisi sulla critica e, finita la riunione, chiedo un incontro privato per esporre con dati e fatti perché la critica è infondata.",
-                "analysis": "È la via del `Professore`/`Alfa`. La reazione è strategica, non emotiva. Si raccolgono dati (`Professore`) per poi gestire la situazione e ristabilire il controllo in modo autorevole e preparato (`Alfa`).",
+                "text": "Resto in silenzio. Discutere ora sarebbe controproducente. Prendo atto che questo non è un ambiente che premia il merito e, per auto-protezione, decido di investire le mie energie emotive altrove.",
+                "analysis": "Il disimpegno strategico e protettivo di `Scheggia`/`Valium`. Il cinismo (`Scheggia`) porta a una decisione razionalizzata (`Professore`) di ritirarsi emotivamente (`Valium`).",
                 "scores": {
-                    "professore_alfa": 3,
+                    "professore_alfa": 1,
                     "romeo_giulietta": 0,
                     "eros_trilli": 0,
-                    "valium_scheggia": 1
+                    "valium_scheggia": 3
                 }
             },
             {
                 "id": "B",
-                "text": "Mi sento profondamente ferito/a e umiliato/a. La critica mi colpisce sul piano personale, più che professionale. Dopo, non cerco il confronto col capo, ma ho un bisogno immediato di parlarne con un collega fidato per trovare conforto e sfogarmi.",
-                "analysis": "La reazione di `Romeo`/`Giulietta`. L'offesa viene vissuta come una ferita emotiva e una rottura della fiducia (`Giulietta`). Il modo per elaborarla è cercare la connessione e il supporto degli affetti (`Romeo`).",
+                "text": "Mi sento profondamente ferito/a. La critica mi colpisce sul piano personale. Dopo, non cerco il confronto, ma ho bisogno di parlarne subito con un collega fidato per trovare conforto.",
+                "analysis": "La reazione di `Romeo`/`Giulietta`. L'offesa è una ferita emotiva (`Giulietta`) che viene elaborata cercando la connessione e il supporto degli affetti (`Romeo`).",
                 "scores": {
                     "professore_alfa": 0,
                     "romeo_giulietta": 3,
@@ -549,8 +549,8 @@
             },
             {
                 "id": "C",
-                "text": "Lo interrompo subito, a caldo. Senza pensare troppo alle conseguenze, dico con un tono di voce alterato qualcosa come \"No, mi scusi, questo non è corretto e non è giusto dirlo qui\". Sento il bisogno istintivo di difendere il mio onore all'istante.",
-                "analysis": "È l'esplosione di `Eros`/`Trilli`. L'istinto di difesa territoriale e dell'orgoglio (`Eros`) si manifesta attraverso un'azione impulsiva e non mediata dalla ragione (`Trilli`), incurante delle gerarchie.",
+                "text": "Lo interrompo subito, a caldo. Senza pensare alle conseguenze, dico con tono alterato: \"No, mi scusi, questo non è corretto\". Sento il bisogno istintivo di difendere il mio onore.",
+                "analysis": "È l'esplosione di `Eros`/`Trilli`. L'istinto di difesa (`Eros`) si manifesta con un'azione impulsiva e non mediata dalla ragione (`Trilli`).",
                 "scores": {
                     "professore_alfa": 1,
                     "romeo_giulietta": 0,
@@ -560,13 +560,13 @@
             },
             {
                 "id": "D",
-                "text": "Resto in silenzio. Discutere in quel momento, a caldo, sarebbe inutile e controproducente. Prendo atto che questo non è un ambiente che premia il merito e, per auto-protezione, decido strategicamente di investire le mie energie emotive altrove, facendo il mio lavoro in modo professionale ma senza più 'darci l'anima'.",
-                "analysis": "È l'implosione protettiva di `Scheggia`/`Valium`. La rabbia non esplode ma si trasforma in cinismo e disillusione (`Scheggia`). Per proteggersi da future delusioni, ci si anestetizza emotivamente e ci si disimpegna (`Valium`).",
+                "text": "Non reagisco d'impulso. Ascolto, prendo appunti e, finita la riunione, chiedo un incontro privato per esporre con dati e fatti perché la critica è infondata.",
+                "analysis": "È la via del `Professore`/`Alfa`. La reazione è strategica: si raccolgono dati (`Professore`) per poi gestire la situazione e ristabilire il controllo (`Alfa`).",
                 "scores": {
-                    "professore_alfa": 0,
+                    "professore_alfa": 3,
                     "romeo_giulietta": 0,
                     "eros_trilli": 0,
-                    "valium_scheggia": 3
+                    "valium_scheggia": 1
                 }
             }
         ]
@@ -574,24 +574,13 @@
     {
         "id": 12,
         "theme": "Il Fallimento Personale",
-        "scenario": "Dopo mesi di impegno totale, un progetto personale a cui tenevi moltissimo (un esame importante, un obiettivo sportivo, un'iniziativa creativa) fallisce completamente.",
-        "question": "Qual è la tua reazione a caldo, nelle ore immediatamente successive alla notizia?",
+        "scenario": "Dopo mesi di impegno totale, un tuo progetto personale a cui tenevi moltissimo fallisce completamente.",
+        "question": "Qual è la tua reazione a caldo?",
         "answers": [
             {
                 "id": "A",
-                "text": "La delusione è forte, ma dopo un primo momento di sconforto, la mia mente inizia subito ad analizzare. Cosa è andato storto? Dove ho sbagliato? Devo capire per non ripetere l'errore e pianificare subito il prossimo tentativo.",
-                "analysis": "È la reazione dell'`Alfa`/`Professore`. L'istinto è quello di riprendere il controllo della situazione (`Alfa`) attraverso un'analisi logica e metodica del fallimento (`Professore`), vedendolo come un'opportunità di apprendimento.",
-                "scores": {
-                    "professore_alfa": 3,
-                    "romeo_giulietta": 0,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 1
-                }
-            },
-            {
-                "id": "B",
-                "text": "Sono a pezzi. La prima cosa che faccio è chiamare le persone che amo. Ho un bisogno disperato di conforto, di un abbraccio, di sentirmi dire che il mio valore non dipende da questo fallimento e che mi vogliono bene lo stesso.",
-                "analysis": "L'approccio di `Romeo`/`Giulietta`. Il fallimento è una ferita emotiva che viene elaborata e curata attraverso la connessione, il supporto degli affetti e la ricerca di rassicurazione sentimentale.",
+                "text": "Sono a pezzi. La prima cosa che faccio è chiamare le persone che amo. Ho bisogno di conforto, di sentirmi dire che il mio valore non dipende da questo fallimento.",
+                "analysis": "L'approccio di `Romeo`/`Giulietta`. Il fallimento è una ferita emotiva che viene curata attraverso la connessione e la ricerca di rassicurazione sentimentale.",
                 "scores": {
                     "professore_alfa": 0,
                     "romeo_giulietta": 3,
@@ -600,25 +589,36 @@
                 }
             },
             {
+                "id": "B",
+                "text": "La delusione è forte, ma la mia mente inizia subito ad analizzare. Cosa è andato storto? Devo capire per non ripetere l'errore e pianificare il prossimo tentativo.",
+                "analysis": "È la reazione dell'`Alfa`/`Professore`. Si riprende il controllo (`Alfa`) attraverso l'analisi logica del fallimento (`Professore`), vedendolo come un'opportunità di apprendimento.",
+                "scores": {
+                    "professore_alfa": 3,
+                    "romeo_giulietta": 0,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 1
+                }
+            },
+            {
                 "id": "C",
-                "text": "Al diavolo questo progetto! Non ci penso nemmeno un secondo. Appena capisco che è andata male, la mia mente è già proiettata su un'idea nuova e completamente diversa, ancora più folle e ambiziosa. Il fallimento mi dà una scarica di adrenalina.",
-                "analysis": "È la via di `Eros`/`Trilli`. Si evita di processare il dolore del fallimento (`Eros`) buttandosi a capofitto e impulsivamente (`Trilli`) in una nuova fonte di eccitazione e stimolo. È una fuga in avanti.",
+                "text": "Il colpo è troppo forte per reagire lucidamente. La cosa più saggia per me è staccare completamente, mettere da parte il progetto per recuperare le forze. Ci penserò più avanti.",
+                "analysis": "La pausa protettiva di `Scheggia`/`Valium`. La delusione (`Scheggia`) porta a una decisione razionalizzata (`Professore`) di ritirarsi emotivamente (`Valium`) per auto-proteggersi.",
+                "scores": {
+                    "professore_alfa": 1,
+                    "romeo_giulietta": 0,
+                    "eros_trilli": 0,
+                    "valium_scheggia": 3
+                }
+            },
+            {
+                "id": "D",
+                "text": "Al diavolo! Appena capisco che è andata male, la mia mente è già proiettata su un'idea nuova e completamente diversa. Il fallimento mi dà una scarica di adrenalina per ripartire.",
+                "analysis": "È la via di `Eros`/`Trilli`. Si evita di processare il dolore (`Eros`) buttandosi a capofitto e impulsivamente (`Trilli`) in una nuova fonte di eccitazione. È una fuga in avanti.",
                 "scores": {
                     "professore_alfa": 1,
                     "romeo_giulietta": 0,
                     "eros_trilli": 3,
                     "valium_scheggia": 0
-                }
-            },
-            {
-                "id": "D",
-                "text": "Il colpo è troppo forte per reagire lucidamente. In questo momento, la delusione è tale che insistere sarebbe solo masochismo. La cosa più saggia e protettiva per me è staccare completamente, mettere da parte il progetto per recuperare le forze. Ci penserò più avanti, quando il dolore sarà meno acuto.",
-                "analysis": "La reazione protettiva di `Scheggia`/`Valium`. Il fallimento conferma una visione cinica di sé stessi (`Scheggia`) e per proteggersi da ulteriore dolore ci si anestetizza con l'apatia e il ritiro totale (`Valium`).",
-                "scores": {
-                    "professore_alfa": 0,
-                    "romeo_giulietta": 1,
-                    "eros_trilli": 0,
-                    "valium_scheggia": 3
                 }
             }
         ]
