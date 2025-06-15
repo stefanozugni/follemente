@@ -26,6 +26,14 @@ Il primo passo è stato costruire le fondamenta teoriche del sistema.
 
 ### Gli 8 Archetipi Emotivi (organizzati per Asse)
 
+| Asse Emotivo                | Archetipo Maschile | Archetipo Femminile | Descrizione Chiave                            |
+| :-------------------------- | :----------------- | :------------------ | :-------------------------------------------- |
+| **Logica & Controllo** | `Professore`       | `Alfa`              | Guida, regola, conoscenza, gestione.          |
+| **Sentimento & Connessione**| `Romeo`            | `Giulietta`         | Empatia, amore, idealismo, cura.              |
+| **Istinto & Impulso** | `Eros`             | `Trilli`            | Passione, azione immediata, spontaneità.      |
+| **Protezione & Ritiro** | `Scheggia`         | `Valium`            | Durezza, cinismo, anestesia emotiva, difesa. |
+
+
 #### 1. Asse della Logica e del Controllo
 * **`Professore` (Maschile):** Rappresenta la logica, la regola e la conoscenza. È la parte che analizza, pianifica e cerca di comprendere il mondo attraverso la ragione.
 * **`Alfa` (Femminile):** È la controparte del `Professore`. Rappresenta la leadership, la forza e il controllo. È la donna che guida, organizza e gestisce con autorevolezza.
@@ -60,13 +68,13 @@ Lo sviluppo non è stato un processo lineare, ma un ciclo continuo di **generazi
 
 ## Fase 3: Progettazione del Quiz di Profilazione
 
-Questa fase ha definito l'esperienza utente.
+Questa fase ha definito l'esperienza utente, trasformando una serie di domande in un vero e proprio motore per generare profili psicologici sfumati.
 
 * **L'Ostacolo 1 - Il Rischio di Profili "Piatti":** Un quiz semplice avrebbe potuto generare profili utente con un solo archetipo dominante, rendendo il matching banale.
 * **Soluzione 1 - Il Principio delle "Ricette Miste":** Si è stabilito che ogni opzione di risposta a una domanda del quiz non corrisponde a un singolo archetipo, ma è una "ricetta" che mescola i punteggi di più archetipi, garantendo un profilo finale sempre sfumato.
 
-* **L'Ostacolo 2 - La Gestione delle Risposte "Negative":** C'era la preoccupazione che risposte ciniche o socialmente "sbagliate" potessero rovinare l'esperienza.
-* **Soluzione 2 - Il Principio dell'"Intenzione Protettiva":** Si è deciso di inquadrare anche i comportamenti "negativi" (`Scheggia`/`Valium`) come valide strategie di auto-protezione. Questo ha permesso di includere nel quiz opzioni realistiche e psicologicamente complesse, senza essere giudicante.
+* **L'Ostacolo 2 - La "Desiderabilità Sociale" e il Rischio di Risposte False:** È emersa una criticità fondamentale: gli utenti tendono a evitare risposte che li descrivono in modo negativo, anche se veritiere (un fenomeno noto come *Social Desirability Bias*). Una risposta che costringe ad "autodenunciarsi" come debole o cinico verrebbe scartata, falsando il test.
+* **Soluzione 2 - Il Principio della "Razionalizzazione Giustificata":** La soluzione è stata riscrivere le risposte "negative" (`Scheggia`/`Valium`) non come ammissioni di debolezza, ma come **strategie di auto-protezione intelligenti e razionalizzate**. Questo rende ogni opzione "sceglibile" perché offre all'utente una narrazione che preserva la propria dignità, pur rivelando la sua vera tendenza psicologica.
 
 ---
 
@@ -79,3 +87,12 @@ L'algoritmo che collega l'utente all'attore è il culmine del progetto.
 3.  **Matching Vettoriale:** Il sistema confronta l'**intero "vettore" di punteggi** dell'utente con quello di ogni attore candidato con la stessa emozione primaria. L'attore con il profilo più simile (la cui "impronta digitale emotiva" ha la distanza minore da quella dell'utente) viene selezionato come il "match" perfetto.
 
 Questo processo garantisce un risultato profondamente personalizzato.
+
+## Esempi di Utilizzo dei Dati
+
+Questi file JSON, oltre a essere il motore dell'applicazione web, possono essere usati per diversi scopi:
+
+-   **Analisi per il Casting:** Un regista può filtrare tutti gli attori con `primaryEmotion: "Scheggia"` per poi analizzare i punteggi secondari (`emotions`) e trovare la sfumatura perfetta di "tormentato" che cerca per un ruolo.
+-   **Supporto alla Sceneggiatura:** Uno sceneggiatore che sta creando un personaggio `Alfa` può studiare i ruoli ricorrenti di attrici come Paola Cortellesi o Kasia Smutniak per comprenderne le dinamiche.
+-   **Studi Culturali e Data Science:** È possibile analizzare la prevalenza degli archetipi nel cinema italiano contemporaneo, confrontare le "impronte emotive" di generazioni diverse di attori o studiare le combinazioni di archetipi più comuni.
+-   **Sviluppo di Esperienze Interattive:** L'uso primario è fungere da database per l'applicazione web del quiz, dove i profili degli utenti vengono abbinati a quelli degli attori.

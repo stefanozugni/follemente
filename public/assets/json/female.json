@@ -1,5 +1,261 @@
 [
     {
+        "name": "Emanuela Fanelli",
+        "imdbId": "nm5408696",
+        "gender": "female",
+        "primaryEmotion": "Trilli",
+        "roles": [
+            {
+                "title": "C'è ancora domani",
+                "character": "Marisa",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Una pezza di Lundini",
+                "character": "Vari personaggi/Sé stessa",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Siccità",
+                "character": "Tania",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "La befana vien di notte 2",
+                "character": "La Strega Cattiva",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Astra",
+                "character": "Amanda",
+                "emotion": "Scheggia"
+            },
+            {
+                "title": "Scordato",
+                "character": "Infermiera",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Un altro ferragosto",
+                "character": "Daniela",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "Call My Agent - Italia",
+                "character": "Luana Pericoli",
+                "emotion": "Scheggia"
+            },
+            {
+                "title": "Dante",
+                "character": "Perpetua",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Bang Bang Baby",
+                "character": "Assunta",
+                "emotion": "Alfa"
+            }
+        ],
+        "emotions": {
+            "Trilli": 0.5,
+            "Alfa": 0.3,
+            "Scheggia": 0.2,
+            "Giulietta": 0.0
+        }
+    },
+    {
+        "name": "Maria Chiara Giannetta",
+        "imdbId": "nm6494798",
+        "gender": "female",
+        "primaryEmotion": "Scheggia",
+        "roles": [
+            {
+                "title": "Blanca",
+                "character": "Blanca Ferrando",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Don Matteo",
+                "character": "Anna Olivieri",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Buongiorno, mamma!",
+                "character": "Anna Della Rosa",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Foggia - A new southern Italy",
+                "character": "Maria",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Bentornato Presidente",
+                "character": "Agente",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Tafanos",
+                "character": "Christine",
+                "emotion": "Scheggia"
+            },
+            {
+                "title": "Mollami",
+                "character": "Renata",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "L'allieva",
+                "character": "Asia",
+                "emotion": "Scheggia"
+            },
+            {
+                "title": "Ricordi?",
+                "character": "Infermiera",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Che Dio ci aiuti",
+                "character": "Asia",
+                "emotion": "Giulietta"
+            }
+        ],
+        "emotions": {
+            "Alfa": 0.4,
+            "Giulietta": 0.3,
+            "Scheggia": 0.2,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Claudia Pandolfi",
+        "imdbId": "nm0659272",
+        "gender": "female",
+        "primaryEmotion": "Alfa",
+        "roles": [
+            {
+                "title": "La prima cosa bella",
+                "character": "Valeria Michelucci",
+                "emotion": "Scheggia"
+            },
+            {
+                "title": "Distretto di Polizia",
+                "character": "Giulia Corsi",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Baby",
+                "character": "Monica",
+                "emotion": "Scheggia"
+            },
+            {
+                "title": "È per il tuo bene",
+                "character": "Alice",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Se chiudo gli occhi non sono più qui",
+                "character": "Marta",
+                "emotion": "Scheggia"
+            },
+            {
+                "title": "Un medico in famiglia",
+                "character": "Alice Solari",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Quando la notte",
+                "character": "Marina",
+                "emotion": "Scheggia"
+            },
+            {
+                "title": "Ovosodo",
+                "character": "Susy",
+                "emotion": "Trilli"
+            },
+            {
+                "title": "I Leoni di Sicilia",
+                "character": "Duchessa",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Ma cosa ci dice il cervello",
+                "character": "Paola",
+                "emotion": "Alfa"
+            }
+        ],
+        "emotions": {
+            "Alfa": 0.4,
+            "Scheggia": 0.4,
+            "Giulietta": 0.1,
+            "Trilli": 0.1
+        }
+    },
+    {
+        "name": "Vittoria Puccini",
+        "imdbId": "nm0700018",
+        "gender": "female",
+        "primaryEmotion": "Giulietta",
+        "roles": [
+            {
+                "title": "Baciami ancora",
+                "character": "Giulia",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Elisa di Rivombrosa",
+                "character": "Elisa",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "18 regali",
+                "character": "Elisa",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Tutta colpa di Freud",
+                "character": "Marta",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "The Place",
+                "character": "Azzurra",
+                "emotion": "Scheggia"
+            },
+            {
+                "title": "Cosa sarà",
+                "character": "Moglie di Bruno",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Acciaio",
+                "character": "Elena",
+                "emotion": "Scheggia"
+            },
+            {
+                "title": "Magnifica presenza",
+                "character": "Beatrice Marni",
+                "emotion": "Giulietta"
+            },
+            {
+                "title": "Il processo",
+                "character": "Elena Guerra",
+                "emotion": "Alfa"
+            },
+            {
+                "title": "Vicini di casa",
+                "character": "Federica",
+                "emotion": "Scheggia"
+            }
+        ],
+        "emotions": {
+            "Giulietta": 0.5,
+            "Scheggia": 0.3,
+            "Alfa": 0.2,
+            "Trilli": 0.0
+        }
+    },
+    {
         "name": "Paola Cortellesi",
         "imdbId": "nm0181283",
         "gender": "female",
@@ -23,7 +279,7 @@
             {
                 "title": "Figli",
                 "character": "Sara",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Nessuno mi può giudicare",
@@ -33,7 +289,7 @@
             {
                 "title": "Gli ultimi saranno ultimi",
                 "character": "Luciana",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Ma cosa ci dice il cervello",
@@ -53,12 +309,12 @@
             {
                 "title": "Petra",
                 "character": "Petra Delicato",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             }
         ],
         "emotions": {
             "Alfa": 0.5,
-            "Valium": 0.3,
+            "Scheggia": 0.3,
             "Trilli": 0.1,
             "Giulietta": 0.1
         }
@@ -67,37 +323,37 @@
         "name": "Margherita Buy",
         "imdbId": "nm0125479",
         "gender": "female",
-        "primaryEmotion": "Valium",
+        "primaryEmotion": "Scheggia",
         "roles": [
             {
                 "title": "Le fate ignoranti",
                 "character": "Antonia",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Maledetto il giorno che t'ho incontrato",
                 "character": "Camilla",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Giorni e nuvole",
                 "character": "Elsa",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Viaggio sola",
                 "character": "Irene",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Il caimano",
                 "character": "Paola",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Lo spazio bianco",
                 "character": "Maria",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Mia madre",
@@ -107,12 +363,12 @@
             {
                 "title": "Esterno notte",
                 "character": "Eleonora Moro",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Tre piani",
                 "character": "Dora",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "La stazione",
@@ -121,7 +377,7 @@
             }
         ],
         "emotions": {
-            "Valium": 0.8,
+            "Scheggia": 0.8,
             "Alfa": 0.1,
             "Giulietta": 0.1,
             "Trilli": 0.0
@@ -146,7 +402,7 @@
             {
                 "title": "Miele",
                 "character": "Irene/Miele",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Sulla mia pelle",
@@ -156,7 +412,7 @@
             {
                 "title": "Nessuno si salva da solo",
                 "character": "Delia",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "La meglio gioventù",
@@ -166,7 +422,7 @@
             {
                 "title": "La stanza del figlio",
                 "character": "Irene",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Supereroi",
@@ -186,7 +442,7 @@
         ],
         "emotions": {
             "Giulietta": 0.5,
-            "Valium": 0.3,
+            "Scheggia": 0.3,
             "Alfa": 0.1,
             "Trilli": 0.1
         }
@@ -200,7 +456,7 @@
             {
                 "title": "La solitudine dei numeri primi",
                 "character": "Alice Della Rocca",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Hungry Hearts",
@@ -220,7 +476,7 @@
             {
                 "title": "Vergine giurata",
                 "character": "Hana/Mark",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Tre piani",
@@ -250,7 +506,7 @@
         ],
         "emotions": {
             "Giulietta": 0.5,
-            "Valium": 0.2,
+            "Scheggia": 0.2,
             "Trilli": 0.2,
             "Alfa": 0.1
         }
@@ -264,12 +520,12 @@
             {
                 "title": "Perfetti sconosciuti",
                 "character": "Carlotta",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Un giorno all'improvviso",
                 "character": "Miriam",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Noi e la Giulia",
@@ -309,12 +565,12 @@
             {
                 "title": "Mai Stati Uniti",
                 "character": "Angela",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             }
         ],
         "emotions": {
             "Alfa": 0.5,
-            "Valium": 0.3,
+            "Scheggia": 0.3,
             "Giulietta": 0.2,
             "Trilli": 0.0
         }
@@ -323,12 +579,12 @@
         "name": "Valeria Bruni Tedeschi",
         "imdbId": "nm0116254",
         "gender": "female",
-        "primaryEmotion": "Valium",
+        "primaryEmotion": "Scheggia",
         "roles": [
             {
                 "title": "Il capitale umano",
                 "character": "Carla Bernaschi",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "La pazza gioia",
@@ -338,17 +594,17 @@
             {
                 "title": "Les Estivants",
                 "character": "Anna",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "È più facile per un cammello...",
                 "character": "Federica",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "La Fracture",
                 "character": "Raf",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Les Amandiers",
@@ -363,12 +619,12 @@
             {
                 "title": "Gli anni più belli",
                 "character": "Madre di Riccardo",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Un castello in Italia",
                 "character": "Louise",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "5x2",
@@ -377,7 +633,7 @@
             }
         ],
         "emotions": {
-            "Valium": 0.6,
+            "Scheggia": 0.6,
             "Alfa": 0.2,
             "Trilli": 0.1,
             "Giulietta": 0.1
@@ -432,7 +688,7 @@
             {
                 "title": "Felicità",
                 "character": "Desiré",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Questione di cuore",
@@ -443,7 +699,7 @@
         "emotions": {
             "Giulietta": 0.6,
             "Trilli": 0.3,
-            "Valium": 0.1,
+            "Scheggia": 0.1,
             "Alfa": 0.0
         }
     },
@@ -461,12 +717,12 @@
             {
                 "title": "Il capitale umano",
                 "character": "Roberta Morelli",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Per amor vostro",
                 "character": "Anna",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Figlia mia",
@@ -507,7 +763,7 @@
         "emotions": {
             "Trilli": 0.4,
             "Alfa": 0.2,
-            "Valium": 0.2,
+            "Scheggia": 0.2,
             "Giulietta": 0.2
         }
     },
@@ -555,12 +811,12 @@
             {
                 "title": "3/19",
                 "character": "Camilla",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "From Paris with Love",
                 "character": "Caroline",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Tutta colpa di Freud",
@@ -571,7 +827,7 @@
         "emotions": {
             "Alfa": 0.5,
             "Giulietta": 0.2,
-            "Valium": 0.2,
+            "Scheggia": 0.2,
             "Trilli": 0.1
         }
     },
@@ -599,7 +855,7 @@
             {
                 "title": "Sole cuore amore",
                 "character": "Eli",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Questione di cuore",
@@ -619,7 +875,7 @@
             {
                 "title": "Come pecore in mezzo ai lupi",
                 "character": "Stefania",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Lei mi parla ancora",
@@ -634,149 +890,21 @@
         ],
         "emotions": {
             "Giulietta": 0.6,
-            "Valium": 0.2,
+            "Scheggia": 0.2,
             "Alfa": 0.1,
             "Trilli": 0.1
-        }
-    },
-    {
-        "name": "Claudia Pandolfi",
-        "imdbId": "nm0659272",
-        "gender": "female",
-        "primaryEmotion": "Valium",
-        "roles": [
-            {
-                "title": "La prima cosa bella",
-                "character": "Valeria Michelucci",
-                "emotion": "Valium"
-            },
-            {
-                "title": "Distretto di Polizia",
-                "character": "Giulia Corsi",
-                "emotion": "Alfa"
-            },
-            {
-                "title": "Baby",
-                "character": "Monica",
-                "emotion": "Valium"
-            },
-            {
-                "title": "È per il tuo bene",
-                "character": "Alice",
-                "emotion": "Alfa"
-            },
-            {
-                "title": "Se chiudo gli occhi non sono più qui",
-                "character": "Marta",
-                "emotion": "Valium"
-            },
-            {
-                "title": "Un medico in famiglia",
-                "character": "Alice Solari",
-                "emotion": "Giulietta"
-            },
-            {
-                "title": "Quando la notte",
-                "character": "Marina",
-                "emotion": "Valium"
-            },
-            {
-                "title": "Ovosodo",
-                "character": "Susy",
-                "emotion": "Trilli"
-            },
-            {
-                "title": "I Leoni di Sicilia",
-                "character": "Duchessa",
-                "emotion": "Alfa"
-            },
-            {
-                "title": "Ma cosa ci dice il cervello",
-                "character": "Paola",
-                "emotion": "Alfa"
-            }
-        ],
-        "emotions": {
-            "Alfa": 0.4,
-            "Valium": 0.4,
-            "Giulietta": 0.1,
-            "Trilli": 0.1
-        }
-    },
-    {
-        "name": "Vittoria Puccini",
-        "imdbId": "nm0700018",
-        "gender": "female",
-        "primaryEmotion": "Giulietta",
-        "roles": [
-            {
-                "title": "Baciami ancora",
-                "character": "Giulia",
-                "emotion": "Giulietta"
-            },
-            {
-                "title": "Elisa di Rivombrosa",
-                "character": "Elisa",
-                "emotion": "Giulietta"
-            },
-            {
-                "title": "18 regali",
-                "character": "Elisa",
-                "emotion": "Giulietta"
-            },
-            {
-                "title": "Tutta colpa di Freud",
-                "character": "Marta",
-                "emotion": "Giulietta"
-            },
-            {
-                "title": "The Place",
-                "character": "Azzurra",
-                "emotion": "Valium"
-            },
-            {
-                "title": "Cosa sarà",
-                "character": "Moglie di Bruno",
-                "emotion": "Alfa"
-            },
-            {
-                "title": "Acciaio",
-                "character": "Elena",
-                "emotion": "Valium"
-            },
-            {
-                "title": "Magnifica presenza",
-                "character": "Beatrice Marni",
-                "emotion": "Giulietta"
-            },
-            {
-                "title": "Il processo",
-                "character": "Elena Guerra",
-                "emotion": "Alfa"
-            },
-            {
-                "title": "Vicini di casa",
-                "character": "Federica",
-                "emotion": "Valium"
-            }
-        ],
-        "emotions": {
-            "Giulietta": 0.5,
-            "Valium": 0.3,
-            "Alfa": 0.2,
-            "Trilli": 0.0
         }
     },
     {
         "name": "Barbora Bobulova",
         "imdbId": "nm0090372",
         "gender": "female",
-        "primaryEmotion": "Valium",
+        "primaryEmotion": "Scheggia",
         "roles": [
             {
                 "title": "Cuori puri",
                 "character": "Marta",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Scialla!",
@@ -786,7 +914,7 @@
             {
                 "title": "Cuore sacro",
                 "character": "Irene",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Anche libero va bene",
@@ -801,7 +929,7 @@
             {
                 "title": "I nostri ragazzi",
                 "character": "Sofia",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Notti magiche",
@@ -811,7 +939,7 @@
             {
                 "title": "Brado",
                 "character": "Katia",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Il sol dell'avvenire",
@@ -821,11 +949,11 @@
             {
                 "title": "Hotel Gagarin",
                 "character": "Valeria",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             }
         ],
         "emotions": {
-            "Valium": 0.5,
+            "Scheggia": 0.5,
             "Giulietta": 0.2,
             "Alfa": 0.2,
             "Trilli": 0.1
@@ -860,17 +988,17 @@
             {
                 "title": "Napoli velata",
                 "character": "Adriana",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "La bestia nel cuore",
                 "character": "Sabina",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Tornare",
                 "character": "Alice",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "I nostri ragazzi",
@@ -890,7 +1018,7 @@
         ],
         "emotions": {
             "Giulietta": 0.5,
-            "Valium": 0.3,
+            "Scheggia": 0.3,
             "Alfa": 0.1,
             "Trilli": 0.1
         }
@@ -956,7 +1084,7 @@
             "Giulietta": 0.6,
             "Alfa": 0.3,
             "Trilli": 0.1,
-            "Valium": 0.0
+            "Scheggia": 0.0
         }
     },
     {
@@ -1003,7 +1131,7 @@
             {
                 "title": "Non uccidere",
                 "character": "Valeria Ferro",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "I leoni di Sicilia",
@@ -1020,7 +1148,7 @@
             "Alfa": 0.4,
             "Giulietta": 0.3,
             "Trilli": 0.2,
-            "Valium": 0.1
+            "Scheggia": 0.1
         }
     },
     {
@@ -1052,7 +1180,7 @@
             {
                 "title": "Non ti muovere",
                 "character": "Elsa",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Suburra - La serie",
@@ -1077,14 +1205,14 @@
             {
                 "title": "A casa tutti bene",
                 "character": "Beatrice",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             }
         ],
         "emotions": {
             "Trilli": 0.4,
             "Alfa": 0.2,
             "Giulietta": 0.2,
-            "Valium": 0.2
+            "Scheggia": 0.2
         }
     },
     {
@@ -1148,29 +1276,29 @@
             "Trilli": 0.4,
             "Giulietta": 0.3,
             "Alfa": 0.3,
-            "Valium": 0.0
+            "Scheggia": 0.0
         }
     },
     {
         "name": "Laura Morante",
         "imdbId": "nm0601240",
         "gender": "female",
-        "primaryEmotion": "Valium",
+        "primaryEmotion": "Scheggia",
         "roles": [
             {
                 "title": "La stanza del figlio",
                 "character": "Paola",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Ricordati di me",
                 "character": "Giulia Ristuccia",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Lacci",
                 "character": "Vanda (adulta)",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Un viaggio chiamato amore",
@@ -1190,12 +1318,12 @@
             {
                 "title": "Il caimano",
                 "character": "Laura",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Assolo",
                 "character": "Flavia",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Una storia senza nome",
@@ -1205,11 +1333,11 @@
             {
                 "title": "Bob & Marys",
                 "character": "Marisa",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             }
         ],
         "emotions": {
-            "Valium": 0.6,
+            "Scheggia": 0.6,
             "Alfa": 0.2,
             "Giulietta": 0.1,
             "Trilli": 0.1
@@ -1229,7 +1357,7 @@
             {
                 "title": "Il buco in testa",
                 "character": "Teresa",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "La stoffa dei sogni",
@@ -1254,7 +1382,7 @@
             {
                 "title": "Il vizio della speranza",
                 "character": "Alba",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Porzus",
@@ -1264,7 +1392,7 @@
             {
                 "title": "Le prime nevi",
                 "character": "Martina",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "I falchi",
@@ -1274,7 +1402,7 @@
         ],
         "emotions": {
             "Giulietta": 0.5,
-            "Valium": 0.3,
+            "Scheggia": 0.3,
             "Alfa": 0.1,
             "Trilli": 0.1
         }
@@ -1288,7 +1416,7 @@
             {
                 "title": "Angela",
                 "character": "Angela",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Il regista di matrimoni",
@@ -1313,7 +1441,7 @@
             {
                 "title": "Galantuomini",
                 "character": "Lucia",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Baarìa",
@@ -1333,12 +1461,12 @@
             {
                 "title": "Youtopia",
                 "character": "Laura",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             }
         ],
         "emotions": {
             "Alfa": 0.4,
-            "Valium": 0.3,
+            "Scheggia": 0.3,
             "Giulietta": 0.2,
             "Trilli": 0.1
         }
@@ -1392,7 +1520,7 @@
             {
                 "title": "Le fate ignoranti - La serie",
                 "character": "Antonia",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Scrivilo sui muri",
@@ -1404,7 +1532,7 @@
             "Giulietta": 0.5,
             "Alfa": 0.2,
             "Trilli": 0.2,
-            "Valium": 0.1
+            "Scheggia": 0.1
         }
     },
     {
@@ -1431,7 +1559,7 @@
             {
                 "title": "Una famiglia",
                 "character": "Stella",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Il premio",
@@ -1441,7 +1569,7 @@
             {
                 "title": "Youtopia",
                 "character": "Matilde",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "La legge di Lidia Poët",
@@ -1451,7 +1579,7 @@
             {
                 "title": "Atlas",
                 "character": "Allegra",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Across the River and into the Trees",
@@ -1466,7 +1594,7 @@
         ],
         "emotions": {
             "Trilli": 0.4,
-            "Valium": 0.3,
+            "Scheggia": 0.3,
             "Giulietta": 0.2,
             "Alfa": 0.1
         }
@@ -1475,12 +1603,12 @@
         "name": "Benedetta Porcaroli",
         "imdbId": "nm7834898",
         "gender": "female",
-        "primaryEmotion": "Valium",
+        "primaryEmotion": "Scheggia",
         "roles": [
             {
                 "title": "Baby",
                 "character": "Chiara Altieri",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "18 regali",
@@ -1490,17 +1618,17 @@
             {
                 "title": "La scuola cattolica",
                 "character": "Donatella Colasanti",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Il colibrì",
                 "character": "Adele",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Amanda",
                 "character": "Amanda",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "L'ombra del giorno",
@@ -1529,7 +1657,7 @@
             }
         ],
         "emotions": {
-            "Valium": 0.4,
+            "Scheggia": 0.4,
             "Giulietta": 0.3,
             "Trilli": 0.2,
             "Alfa": 0.1
@@ -1539,7 +1667,7 @@
         "name": "Elena Radonicich",
         "imdbId": "nm2749038",
         "gender": "female",
-        "primaryEmotion": "Valium",
+        "primaryEmotion": "Scheggia",
         "roles": [
             {
                 "title": "Tutti al mare",
@@ -1549,12 +1677,12 @@
             {
                 "title": "In Treatment",
                 "character": "Bianca",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Alaska",
                 "character": "Francesca",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Banat - Il viaggio",
@@ -1569,7 +1697,7 @@
             {
                 "title": "Genitori quasi perfetti",
                 "character": "Ilaria",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Fabrizio De André - Principe libero",
@@ -1579,7 +1707,7 @@
             {
                 "title": "Il mangiatore di pietre",
                 "character": "Francesca",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Sulla mia pelle",
@@ -1593,7 +1721,7 @@
             }
         ],
         "emotions": {
-            "Valium": 0.4,
+            "Scheggia": 0.4,
             "Alfa": 0.3,
             "Giulietta": 0.2,
             "Trilli": 0.1
@@ -1603,12 +1731,12 @@
         "name": "Sara Serraiocco",
         "imdbId": "nm5556102",
         "gender": "female",
-        "primaryEmotion": "Valium",
+        "primaryEmotion": "Scheggia",
         "roles": [
             {
                 "title": "Salvo",
                 "character": "Rita",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "La ragazza del mondo",
@@ -1618,7 +1746,7 @@
             {
                 "title": "Non odiare",
                 "character": "Marica",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Lo spietato",
@@ -1628,7 +1756,7 @@
             {
                 "title": "L'ora più buia",
                 "character": "Meril",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Brutti e cattivi",
@@ -1643,12 +1771,12 @@
             {
                 "title": "Il primo giorno della mia vita",
                 "character": "Emilia",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Counterpart",
                 "character": "Baldwin",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Io sto bene",
@@ -1657,7 +1785,7 @@
             }
         ],
         "emotions": {
-            "Valium": 0.5,
+            "Scheggia": 0.5,
             "Giulietta": 0.3,
             "Trilli": 0.2,
             "Alfa": 0.0
@@ -1667,7 +1795,7 @@
         "name": "Pina Turco",
         "imdbId": "nm3419302",
         "gender": "female",
-        "primaryEmotion": "Valium",
+        "primaryEmotion": "Scheggia",
         "roles": [
             {
                 "title": "Gomorra - La serie",
@@ -1677,17 +1805,17 @@
             {
                 "title": "Il vizio della speranza",
                 "character": "Maria",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "La paranza dei bambini",
                 "character": "Mamma di Nicola",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Fortuna",
                 "character": "Gina",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Un posto al sole",
@@ -1702,7 +1830,7 @@
             {
                 "title": "La vita bugiarda degli adulti",
                 "character": "Nella",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Qui rido io",
@@ -1717,11 +1845,11 @@
             {
                 "title": "La bambina che non voleva cantare",
                 "character": "Donata",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             }
         ],
         "emotions": {
-            "Valium": 0.5,
+            "Scheggia": 0.5,
             "Giulietta": 0.3,
             "Trilli": 0.1,
             "Alfa": 0.1
@@ -1781,14 +1909,14 @@
             {
                 "title": "Don Matteo",
                 "character": "Dafne",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             }
         ],
         "emotions": {
             "Giulietta": 0.5,
             "Alfa": 0.2,
             "Trilli": 0.2,
-            "Valium": 0.1
+            "Scheggia": 0.1
         }
     },
     {
@@ -1852,7 +1980,7 @@
             "Trilli": 0.5,
             "Giulietta": 0.5,
             "Alfa": 0.0,
-            "Valium": 0.0
+            "Scheggia": 0.0
         }
     },
     {
@@ -1869,12 +1997,12 @@
             {
                 "title": "Lukas",
                 "character": "Lisa",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "The Bouncer",
                 "character": "Lisa",
-                "emotion": "Valium"
+                "emotion": "Scheggia"
             },
             {
                 "title": "Restiamo amici",
@@ -1915,7 +2043,7 @@
         "emotions": {
             "Giulietta": 0.5,
             "Alfa": 0.2,
-            "Valium": 0.2,
+            "Scheggia": 0.2,
             "Trilli": 0.1
         }
     }

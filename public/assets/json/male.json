@@ -1,193 +1,193 @@
 [
     {
-        "name": "Valerio Mastandrea",
-        "imdbId": "nm0557929",
+        "name": "Claudio Santamaria",
+        "imdbId": "nm0763592",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Eros",
         "roles": [
             {
-                "title": "Perfetti sconosciuti",
-                "character": "Lele",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "La prima cosa bella",
-                "character": "Bruno Michelucci",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Fai bei sogni",
-                "character": "Massimo",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Euforia",
-                "character": "Ettore",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Non pensarci",
-                "character": "Stefano Nardini",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Gli equilibristi",
-                "character": "Giulio",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Figli",
-                "character": "Nicola",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "The Place",
-                "character": "L'uomo",
-                "emotion": "Professore"
-            },
-            {
-                "title": "C'è ancora domani",
-                "character": "Ivano",
+                "title": "Lo chiamavano Jeeg Robot",
+                "character": "Enzo Ceccotti",
                 "emotion": "Eros"
-            },
-            {
-                "title": "Adagio",
-                "character": "Polniuman",
-                "emotion": "Scheggia"
-            }
-        ],
-        "emotions": {
-            "Scheggia": 0.8,
-            "Professore": 0.1,
-            "Eros": 0.1,
-            "Romeo": 0.0
-        }
-    },
-    {
-        "name": "Pierfrancesco Favino",
-        "imdbId": "nm0269528",
-        "gender": "male",
-        "primaryEmotion": "Professore",
-        "roles": [
-            {
-                "title": "Il traditore",
-                "character": "Tommaso Buscetta",
-                "emotion": "Professore"
-            },
-            {
-                "title": "Nostalgia",
-                "character": "Felice Lasco",
-                "emotion": "Scheggia"
             },
             {
                 "title": "Romanzo Criminale",
-                "character": "Libanese",
+                "character": "Il Dandi",
                 "emotion": "Eros"
             },
             {
-                "title": "A.C.A.B.",
-                "character": "Cobra",
-                "emotion": "Scheggia"
+                "title": "Freaks Out",
+                "character": "Fulvio",
+                "emotion": "Eros"
             },
             {
-                "title": "Hammamet",
-                "character": "Bettino Craxi",
+                "title": "L'ultimo bacio",
+                "character": "Paolo",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Diaz - Don't Clean Up This Blood",
+                "character": "Max Flamini",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Paz!",
+                "character": "Penthotal",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Casino Royale",
+                "character": "Carlos",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Baciami ancora",
+                "character": "Paolo",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Terraferma",
+                "character": "Finanziere",
                 "emotion": "Professore"
             },
             {
-                "title": "Suburra",
-                "character": "Filippo Malgradi",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Comandante",
-                "character": "Salvatore Todaro",
-                "emotion": "Professore"
-            },
-            {
-                "title": "Adagio",
-                "character": "Romeo",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Gli anni più belli",
-                "character": "Giulio Ristuccia",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "A casa tutti bene",
-                "character": "Carlo",
+                "title": "Tutto il mio folle amore",
+                "character": "Willy",
                 "emotion": "Romeo"
             }
         ],
         "emotions": {
-            "Scheggia": 0.4,
-            "Professore": 0.3,
-            "Romeo": 0.2,
-            "Eros": 0.1
+            "Eros": 0.4,
+            "Valium": 0.4,
+            "Romeo": 0.1,
+            "Professore": 0.1
         }
     },
     {
-        "name": "Elio Germano",
-        "imdbId": "nm0314683",
+        "name": "Rocco Papaleo",
+        "imdbId": "nm0660662",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Valium",
         "roles": [
             {
-                "title": "Mio fratello è figlio unico",
-                "character": "Accio Benassi",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "La nostra vita",
-                "character": "Claudio De Rosa",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Il giovane favoloso",
-                "character": "Giacomo Leopardi",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Volevo nascondermi",
-                "character": "Antonio Ligabue",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Favolacce",
-                "character": "Bruno Placido",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Suburra",
-                "character": "Sebastiano",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "America Latina",
-                "character": "Massimo Sisti",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "L'incredibile storia dell'Isola delle Rose",
-                "character": "Giorgio Rosa",
-                "emotion": "Professore"
-            },
-            {
-                "title": "Palazzina Laf",
-                "character": "Caterino",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Magnifica presenza",
-                "character": "Pietro",
+                "title": "Basilicata Coast to Coast",
+                "character": "Nicola",
                 "emotion": "Romeo"
+            },
+            {
+                "title": "Una piccola impresa meridionale",
+                "character": "Don Costantino",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Il nome del figlio",
+                "character": "Claudio",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Tutta colpa di Freud",
+                "character": "Alessandro",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Che bella giornata",
+                "character": "Padre di Checco",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Moschettieri del re",
+                "character": "Athos",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Scordato",
+                "character": "Orlando",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Onda su onda",
+                "character": "Gegè",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Il grande spirito",
+                "character": "Tonino",
+                "emotion": "Valium"
+            },
+            {
+                "title": "I laureati",
+                "character": "Rocco",
+                "emotion": "Eros"
             }
         ],
         "emotions": {
-            "Scheggia": 0.8,
-            "Professore": 0.1,
-            "Romeo": 0.1,
+            "Romeo": 0.5,
+            "Valium": 0.3,
+            "Eros": 0.2,
+            "Professore": 0.0
+        }
+    },
+    {
+        "name": "Maurizio Lastrico",
+        "imdbId": "nm2772390",
+        "gender": "male",
+        "primaryEmotion": "Romeo",
+        "roles": [
+            {
+                "title": "Call My Agent - Italia",
+                "character": "Gabriele",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Don Matteo",
+                "character": "PM Marco Nardi",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Sole a catinelle",
+                "character": "Vittorio",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Io sono l'abisso",
+                "character": "Padre di Miele",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Tutta colpa di Freud - La serie",
+                "character": "Claudio",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "America Latina",
+                "character": "Amico di Massimo",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Made in Italy",
+                "character": "Ludovico",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Il grande gioco",
+                "character": "Federico",
+                "emotion": "Professore"
+            },
+            {
+                "title": "La congiura della pietra",
+                "character": "Orsino",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Lastrico's Divine Comedy (Teatro)",
+                "character": "Narratore Dantesco",
+                "emotion": "Professore"
+            }
+        ],
+        "emotions": {
+            "Professore": 0.4,
+            "Romeo": 0.3,
+            "Valium": 0.3,
             "Eros": 0.0
         }
     },
@@ -195,7 +195,7 @@
         "name": "Marco Giallini",
         "imdbId": "nm0316086",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Professore",
         "roles": [
             {
                 "title": "Perfetti sconosciuti",
@@ -205,17 +205,17 @@
             {
                 "title": "A.C.A.B.",
                 "character": "Mazinga",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Rocco Schiavone",
                 "character": "Rocco Schiavone",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Posti in piedi in paradiso",
                 "character": "Domenico",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Tutta colpa di Freud",
@@ -240,46 +240,238 @@
             {
                 "title": "L'odore della notte",
                 "character": "Maurizio Leggeri 'Il Roscio'",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Non ci resta che il crimine",
                 "character": "Moreno",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             }
         ],
         "emotions": {
-            "Scheggia": 0.5,
+            "Valium": 0.5,
             "Professore": 0.3,
             "Eros": 0.2,
             "Romeo": 0.0
         }
     },
     {
+        "name": "Valerio Mastandrea",
+        "imdbId": "nm0557929",
+        "gender": "male",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "Perfetti sconosciuti",
+                "character": "Lele",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La prima cosa bella",
+                "character": "Bruno Michelucci",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Fai bei sogni",
+                "character": "Massimo",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Euforia",
+                "character": "Ettore",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Figli",
+                "character": "Nicola",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Gli equilibristi",
+                "character": "Giulio",
+                "emotion": "Valium"
+            },
+            {
+                "title": "The Place",
+                "character": "L'uomo",
+                "emotion": "Professore"
+            },
+            {
+                "title": "C'è ancora domani",
+                "character": "Ivano",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Adagio",
+                "character": "Polniuman",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Ride",
+                "character": "Direttore",
+                "emotion": "Professore"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.7,
+            "Professore": 0.2,
+            "Eros": 0.1,
+            "Romeo": 0.0
+        }
+    },
+    {
+        "name": "Pierfrancesco Favino",
+        "imdbId": "nm0269528",
+        "gender": "male",
+        "primaryEmotion": "Professore",
+        "roles": [
+            {
+                "title": "Il traditore",
+                "character": "Tommaso Buscetta",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Nostalgia",
+                "character": "Felice Lasco",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Romanzo Criminale",
+                "character": "Libanese",
+                "emotion": "Eros"
+            },
+            {
+                "title": "A.C.A.B.",
+                "character": "Cobra",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Hammamet",
+                "character": "Bettino Craxi",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Suburra",
+                "character": "Filippo Malgradi",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Comandante",
+                "character": "Salvatore Todaro",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Adagio",
+                "character": "Romeo",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Gli anni più belli",
+                "character": "Giulio Ristuccia",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "A casa tutti bene",
+                "character": "Carlo",
+                "emotion": "Romeo"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.4,
+            "Professore": 0.3,
+            "Romeo": 0.2,
+            "Eros": 0.1
+        }
+    },
+    {
+        "name": "Elio Germano",
+        "imdbId": "nm0314683",
+        "gender": "male",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "Mio fratello è figlio unico",
+                "character": "Accio Benassi",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La nostra vita",
+                "character": "Claudio De Rosa",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Il giovane favoloso",
+                "character": "Giacomo Leopardi",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Volevo nascondermi",
+                "character": "Antonio Ligabue",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Favolacce",
+                "character": "Bruno Placido",
+                "emotion": "Valium"
+            },
+            {
+                "title": "America Latina",
+                "character": "Massimo Sisti",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Palazzina Laf",
+                "character": "Caterino",
+                "emotion": "Valium"
+            },
+            {
+                "title": "L'incredibile storia dell'Isola delle Rose",
+                "character": "Giorgio Rosa",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Suburra",
+                "character": "Sebastiano",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Magnifica presenza",
+                "character": "Pietro",
+                "emotion": "Romeo"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.8,
+            "Professore": 0.1,
+            "Romeo": 0.1,
+            "Eros": 0.0
+        }
+    },
+    {
         "name": "Alessandro Borghi",
         "imdbId": "nm2899175",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Valium",
         "roles": [
             {
                 "title": "Sulla mia pelle",
                 "character": "Stefano Cucchi",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Non essere cattivo",
                 "character": "Vittorio",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Le otto montagne",
                 "character": "Bruno",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
-                "title": "Mondocane",
-                "character": "Testacalda",
-                "emotion": "Scheggia"
+                "title": "Fortunata",
+                "character": "Chicano",
+                "emotion": "Valium"
             },
             {
                 "title": "Suburra",
@@ -302,18 +494,18 @@
                 "emotion": "Professore"
             },
             {
-                "title": "Fortunata",
-                "character": "Chicano",
-                "emotion": "Scheggia"
-            },
-            {
                 "title": "Napoli velata",
                 "character": "Andrea",
                 "emotion": "Eros"
+            },
+            {
+                "title": "Mondocane",
+                "character": "Testacalda",
+                "emotion": "Valium"
             }
         ],
         "emotions": {
-            "Scheggia": 0.5,
+            "Valium": 0.5,
             "Eros": 0.4,
             "Professore": 0.1,
             "Romeo": 0.0
@@ -348,17 +540,17 @@
             {
                 "title": "Non essere cattivo",
                 "character": "Cesare",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Martin Eden",
                 "character": "Martin Eden",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "La solitudine dei numeri primi",
                 "character": "Mattia Balossino",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Fabrizio De André - Principe libero",
@@ -378,7 +570,7 @@
         ],
         "emotions": {
             "Eros": 0.4,
-            "Scheggia": 0.3,
+            "Valium": 0.3,
             "Romeo": 0.3,
             "Professore": 0.0
         }
@@ -405,11 +597,6 @@
                 "emotion": "Romeo"
             },
             {
-                "title": "Che vuoi che sia",
-                "character": "Claudio",
-                "emotion": "Romeo"
-            },
-            {
                 "title": "La dea fortuna",
                 "character": "Alessandro",
                 "emotion": "Romeo"
@@ -427,7 +614,7 @@
             {
                 "title": "Loro chi?",
                 "character": "David",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Buongiorno papà",
@@ -438,13 +625,18 @@
                 "title": "Lasciarsi un giorno a Roma",
                 "character": "Tommaso",
                 "emotion": "Romeo"
+            },
+            {
+                "title": "Non ci resta che il crimine",
+                "character": "Renatino",
+                "emotion": "Valium"
             }
         ],
         "emotions": {
-            "Romeo": 0.5,
-            "Eros": 0.2,
+            "Romeo": 0.4,
             "Professore": 0.2,
-            "Scheggia": 0.1
+            "Eros": 0.2,
+            "Valium": 0.2
         }
     },
     {
@@ -466,12 +658,12 @@
             {
                 "title": "Radiofreccia",
                 "character": "Ivan 'Freccia'",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Veloce come il vento",
                 "character": "Loris De Martino",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "La dea fortuna",
@@ -506,7 +698,7 @@
         ],
         "emotions": {
             "Romeo": 0.5,
-            "Scheggia": 0.2,
+            "Valium": 0.2,
             "Professore": 0.2,
             "Eros": 0.1
         }
@@ -515,12 +707,12 @@
         "name": "Riccardo Scamarcio",
         "imdbId": "nm1346233",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Valium",
         "roles": [
             {
                 "title": "Tre metri sopra il cielo",
                 "character": "Step",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Lo spietato",
@@ -535,12 +727,12 @@
             {
                 "title": "Il testimone invisibile",
                 "character": "Adriano Doria",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Nessuno si salva da solo",
                 "character": "Gaetano",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Mio fratello è figlio unico",
@@ -550,7 +742,7 @@
             {
                 "title": "Romanzo Criminale",
                 "character": "Il Nero",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Mine vaganti",
@@ -569,74 +761,10 @@
             }
         ],
         "emotions": {
-            "Scheggia": 0.4,
+            "Valium": 0.4,
             "Romeo": 0.3,
             "Eros": 0.3,
             "Professore": 0.0
-        }
-    },
-    {
-        "name": "Claudio Santamaria",
-        "imdbId": "nm0763592",
-        "gender": "male",
-        "primaryEmotion": "Eros",
-        "roles": [
-            {
-                "title": "Lo chiamavano Jeeg Robot",
-                "character": "Enzo Ceccotti",
-                "emotion": "Eros"
-            },
-            {
-                "title": "Romanzo Criminale",
-                "character": "Il Dandi",
-                "emotion": "Eros"
-            },
-            {
-                "title": "Freaks Out",
-                "character": "Fulvio",
-                "emotion": "Eros"
-            },
-            {
-                "title": "L'ultimo bacio",
-                "character": "Paolo",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Diaz - Don't Clean Up This Blood",
-                "character": "Max Flamini",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Paz!",
-                "character": "Penthotal",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Casino Royale",
-                "character": "Carlos",
-                "emotion": "Eros"
-            },
-            {
-                "title": "Baciami ancora",
-                "character": "Paolo",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Terraferma",
-                "character": "Finanziere",
-                "emotion": "Professore"
-            },
-            {
-                "title": "Tutto il mio folle amore",
-                "character": "Willy",
-                "emotion": "Romeo"
-            }
-        ],
-        "emotions": {
-            "Eros": 0.4,
-            "Scheggia": 0.4,
-            "Romeo": 0.1,
-            "Professore": 0.1
         }
     },
     {
@@ -658,7 +786,7 @@
             {
                 "title": "La passione",
                 "character": "Gianni Dubois",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Cosa voglio di più",
@@ -668,12 +796,12 @@
             {
                 "title": "La felicità è un sistema complesso",
                 "character": "Carlo Bernini",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Dopo la guerra",
                 "character": "Marco",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Il comandante e la cicogna",
@@ -698,7 +826,7 @@
         ],
         "emotions": {
             "Romeo": 0.5,
-            "Scheggia": 0.3,
+            "Valium": 0.3,
             "Professore": 0.1,
             "Eros": 0.1
         }
@@ -722,7 +850,7 @@
             {
                 "title": "Le conseguenze dell'amore",
                 "character": "Titta Di Girolamo",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Gomorra",
@@ -757,12 +885,12 @@
             {
                 "title": "L'uomo in più",
                 "character": "Tony Pisapia",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             }
         ],
         "emotions": {
             "Professore": 0.6,
-            "Scheggia": 0.2,
+            "Valium": 0.2,
             "Eros": 0.2,
             "Romeo": 0.0
         }
@@ -771,17 +899,17 @@
         "name": "Adriano Giannini",
         "imdbId": "nm0316049",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Valium",
         "roles": [
             {
                 "title": "Adagio",
                 "character": "Vasco",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "La vita bugiarda degli adulti",
                 "character": "Andrea",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Le conseguenze dell'amore",
@@ -791,7 +919,7 @@
             {
                 "title": "Tre piani",
                 "character": "Giorgio",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Per amor vostro",
@@ -806,17 +934,17 @@
             {
                 "title": "Senza nessuna pietà",
                 "character": "Mimmo",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Baciami ancora",
                 "character": "Mauro",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Vivere",
                 "character": "Luca",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Una vita spericolata",
@@ -825,7 +953,7 @@
             }
         ],
         "emotions": {
-            "Scheggia": 0.6,
+            "Valium": 0.6,
             "Eros": 0.3,
             "Romeo": 0.1,
             "Professore": 0.0
@@ -845,7 +973,7 @@
             {
                 "title": "La porta rossa",
                 "character": "Leonardo Cagliostro",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "L'allieva",
@@ -860,7 +988,7 @@
             {
                 "title": "Sopravvissuti",
                 "character": "Luca",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Vallanzasca - Gli angeli del male",
@@ -868,102 +996,38 @@
                 "emotion": "Eros"
             },
             {
-                "title": "Un'estate al mare",
-                "character": "Ragazzo in spiaggia",
-                "emotion": "Romeo"
-            },
-            {
                 "title": "I peggiori",
                 "character": "Massimo",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "To Rome with Love",
-                "character": "Leonardo",
                 "emotion": "Romeo"
             },
             {
                 "title": "Il primo re",
                 "character": "Tiberinus",
                 "emotion": "Professore"
+            },
+            {
+                "title": "Un'estate al mare",
+                "character": "Ragazzo in spiaggia",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "To Rome with Love",
+                "character": "Leonardo",
+                "emotion": "Romeo"
             }
         ],
         "emotions": {
             "Romeo": 0.4,
             "Professore": 0.3,
-            "Scheggia": 0.2,
+            "Valium": 0.2,
             "Eros": 0.1
-        }
-    },
-    {
-        "name": "Rocco Papaleo",
-        "imdbId": "nm0660662",
-        "gender": "male",
-        "primaryEmotion": "Romeo",
-        "roles": [
-            {
-                "title": "Basilicata Coast to Coast",
-                "character": "Nicola",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "Una piccola impresa meridionale",
-                "character": "Don Costantino",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "Il nome del figlio",
-                "character": "Claudio",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Tutta colpa di Freud",
-                "character": "Alessandro",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "Che bella giornata",
-                "character": "Padre di Checco",
-                "emotion": "Eros"
-            },
-            {
-                "title": "Moschettieri del re",
-                "character": "Athos",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "Scordato",
-                "character": "Orlando",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Onda su onda",
-                "character": "Gegè",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "Il grande spirito",
-                "character": "Tonino",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "I laureati",
-                "character": "Rocco",
-                "emotion": "Eros"
-            }
-        ],
-        "emotions": {
-            "Romeo": 0.5,
-            "Scheggia": 0.3,
-            "Eros": 0.2,
-            "Professore": 0.0
         }
     },
     {
         "name": "Michele Riondino",
         "imdbId": "nm1662580",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Valium",
         "roles": [
             {
                 "title": "Il giovane Montalbano",
@@ -983,7 +1047,7 @@
             {
                 "title": "Il passato è una terra straniera",
                 "character": "Francesco",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Dieci inverni",
@@ -993,12 +1057,12 @@
             {
                 "title": "Acciaio",
                 "character": "Alessio",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Senza nessuna pietà",
                 "character": "Rosco",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Restiamo amici",
@@ -1013,11 +1077,11 @@
             {
                 "title": "I nostri fantasmi",
                 "character": "Valerio",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             }
         ],
         "emotions": {
-            "Scheggia": 0.4,
+            "Valium": 0.4,
             "Romeo": 0.3,
             "Professore": 0.2,
             "Eros": 0.1
@@ -1027,12 +1091,12 @@
         "name": "Vinicio Marchioni",
         "imdbId": "nm2749020",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Valium",
         "roles": [
             {
                 "title": "Romanzo Criminale - La serie",
                 "character": "Il Freddo",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Tutta colpa di Freud",
@@ -1042,7 +1106,7 @@
             {
                 "title": "20 sigarette",
                 "character": "Aurelio",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "C'è ancora domani",
@@ -1052,17 +1116,17 @@
             {
                 "title": "Miele",
                 "character": "Stefano",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Drive Me Home",
                 "character": "Antonio",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Quanto basta",
                 "character": "Arturo",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Il terremoto di Vanja",
@@ -1081,7 +1145,7 @@
             }
         ],
         "emotions": {
-            "Scheggia": 0.5,
+            "Valium": 0.5,
             "Professore": 0.3,
             "Romeo": 0.2,
             "Eros": 0.0
@@ -1116,7 +1180,7 @@
             {
                 "title": "Sono tornato",
                 "character": "Andrea Canaletti",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "È per il tuo bene",
@@ -1126,7 +1190,7 @@
             {
                 "title": "La banalità del crimine",
                 "character": "Ispettore Tarcisio",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Si muore solo da vivi",
@@ -1147,7 +1211,7 @@
         "emotions": {
             "Eros": 0.4,
             "Romeo": 0.2,
-            "Scheggia": 0.2,
+            "Valium": 0.2,
             "Professore": 0.2
         }
     },
@@ -1160,7 +1224,7 @@
             {
                 "title": "Romanzo Criminale",
                 "character": "Il Freddo",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Le chiavi di casa",
@@ -1170,7 +1234,7 @@
             {
                 "title": "Anche libero va bene",
                 "character": "Renato",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Vallanzasca - Gli angeli del male",
@@ -1200,7 +1264,7 @@
             {
                 "title": "Cosa sarà",
                 "character": "Bruno",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Fantaghirò",
@@ -1210,7 +1274,7 @@
         ],
         "emotions": {
             "Romeo": 0.6,
-            "Scheggia": 0.3,
+            "Valium": 0.3,
             "Eros": 0.1,
             "Professore": 0.0
         }
@@ -1264,7 +1328,7 @@
             {
                 "title": "Fratelli unici",
                 "character": "Pietro",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Poli opposti",
@@ -1275,7 +1339,7 @@
         "emotions": {
             "Romeo": 0.5,
             "Professore": 0.4,
-            "Scheggia": 0.1,
+            "Valium": 0.1,
             "Eros": 0.0
         }
     },
@@ -1283,7 +1347,7 @@
         "name": "Fabrizio Bentivoglio",
         "imdbId": "nm0072745",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Valium",
         "roles": [
             {
                 "title": "Il capitale umano",
@@ -1293,7 +1357,7 @@
             {
                 "title": "Turné",
                 "character": "Dario",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Un eroe borghese",
@@ -1303,12 +1367,12 @@
             {
                 "title": "Ricordati di me",
                 "character": "Carlo Ristuccia",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Loro",
                 "character": "Santino",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Marrakech Express",
@@ -1328,16 +1392,16 @@
             {
                 "title": "Lasciami andare",
                 "character": "Marco",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Testimone a rischio",
                 "character": "Piero",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             }
         ],
         "emotions": {
-            "Scheggia": 0.5,
+            "Valium": 0.5,
             "Professore": 0.3,
             "Eros": 0.1,
             "Romeo": 0.1
@@ -1347,12 +1411,12 @@
         "name": "Silvio Orlando",
         "imdbId": "nm0650075",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Valium",
         "roles": [
             {
                 "title": "Il caimano",
                 "character": "Bruno Bonomo",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "The Young Pope",
@@ -1367,7 +1431,7 @@
             {
                 "title": "La stanza del figlio",
                 "character": "Paziente",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Il portaborse",
@@ -1382,26 +1446,26 @@
             {
                 "title": "Aprile",
                 "character": "Silvio",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Preferisco il rumore del mare",
                 "character": "Luigi",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Ariaferma",
                 "character": "Carmine Lagioia",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Lacci",
                 "character": "Aldo (anziano)",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             }
         ],
         "emotions": {
-            "Scheggia": 0.6,
+            "Valium": 0.6,
             "Professore": 0.3,
             "Romeo": 0.1,
             "Eros": 0.0
@@ -1426,12 +1490,12 @@
             {
                 "title": "Giorni e nuvole",
                 "character": "Michele",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Cento domeniche",
                 "character": "Antonio",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "La fame e la sete",
@@ -1468,7 +1532,7 @@
             "Professore": 0.3,
             "Romeo": 0.3,
             "Eros": 0.2,
-            "Scheggia": 0.2
+            "Valium": 0.2
         }
     },
     {
@@ -1480,7 +1544,7 @@
             {
                 "title": "Non ti muovere",
                 "character": "Timoteo",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "L'uomo delle stelle",
@@ -1510,7 +1574,7 @@
             {
                 "title": "L'ora di religione",
                 "character": "Ernesto",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             },
             {
                 "title": "Il materiale emotivo",
@@ -1525,398 +1589,526 @@
             {
                 "title": "La scelta",
                 "character": "Giorgio",
-                "emotion": "Scheggia"
+                "emotion": "Valium"
             }
         ],
         "emotions": {
             "Professore": 0.4,
-            "Scheggia": 0.3,
+            "Valium": 0.3,
             "Romeo": 0.2,
             "Eros": 0.1
         }
     },
     {
-        "name": "Guido Caprino",
-        "imdbId": "nm2277884",
+        "name": "Salvatore Esposito",
+        "imdbId": "nm5635278",
         "gender": "male",
-        "primaryEmotion": "Professore",
+        "primaryEmotion": "Eros",
         "roles": [
             {
-                "title": "1992 / 1993 / 1994",
-                "character": "Pietro Bosco",
+                "title": "Gomorra - La serie",
+                "character": "Gennaro 'Genny' Savastano",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Fargo",
+                "character": "Gaetano Fadda",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Lo chiamavano Jeeg Robot",
+                "character": "Vincenzo",
+                "emotion": "Eros"
+            },
+            {
+                "title": "L'immortale",
+                "character": "Genny Savastano",
+                "emotion": "Eros"
+            },
+            {
+                "title": "La cena di Natale",
+                "character": "Poliziotto",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Puoi baciare lo sposo",
+                "character": "Paolo",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Spaccapietre",
+                "character": "Giuseppe",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Zeta",
+                "character": "Sante",
+                "emotion": "Eros"
+            },
+            {
+                "title": "L'eroe",
+                "character": "Giorgio",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La scuola cattolica",
+                "character": "Professore",
+                "emotion": "Professore"
+            }
+        ],
+        "emotions": {
+            "Eros": 0.5,
+            "Professore": 0.2,
+            "Valium": 0.2,
+            "Romeo": 0.1
+        }
+    },
+    {
+        "name": "Giampaolo Morelli",
+        "imdbId": "nm0603448",
+        "gender": "male",
+        "primaryEmotion": "Romeo",
+        "roles": [
+            {
+                "title": "L'ispettore Coliandro",
+                "character": "Coliandro",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Ammore e malavita",
+                "character": "Ciro",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Song'e Napule",
+                "character": "Lollo Love",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "7 ore per farti innamorare",
+                "character": "Giulio",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Falla girare",
+                "character": "Natan",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Metti la nonna in freezer",
+                "character": "Simone",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "L'uomo che fissa le capre",
+                "character": "Sergente",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Paz!",
+                "character": "Massimo",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Niente di serio",
+                "character": "Giulio",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "C'era una volta il crimine",
+                "character": "Claudio",
+                "emotion": "Valium"
+            }
+        ],
+        "emotions": {
+            "Romeo": 0.5,
+            "Eros": 0.2,
+            "Valium": 0.2,
+            "Professore": 0.1
+        }
+    },
+    {
+        "name": "Francesco Arca",
+        "imdbId": "nm2606554",
+        "gender": "male",
+        "primaryEmotion": "Eros",
+        "roles": [
+            {
+                "title": "Allacciate le cinture",
+                "character": "Antonio",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Le tre rose di Eva",
+                "character": "Bruno Attali",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Resta con me",
+                "character": "Alessandro Scudieri",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Fosca Innocenti",
+                "character": "Cosimo",
+                "emotion": "Eros"
+            },
+            {
+                "title": "La vita promessa",
+                "character": "Vincenzo",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Gli idoli delle donne",
+                "character": "Filippo",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Scusa ma ti chiamo amore",
+                "character": "Fotografo",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Spectre",
+                "character": "Marco",
+                "emotion": "Valium"
+            },
+            {
+                "title": "L'isola di Pietro",
+                "character": "Diego",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Prom你不识丁",
+                "character": "Francesco",
+                "emotion": "Romeo"
+            }
+        ],
+        "emotions": {
+            "Eros": 0.5,
+            "Romeo": 0.2,
+            "Professore": 0.2,
+            "Valium": 0.1
+        }
+    },
+    {
+        "name": "Marco Bocci",
+        "imdbId": "nm2268617",
+        "gender": "male",
+        "primaryEmotion": "Valium",
+        "roles": [
+            {
+                "title": "Romanzo Criminale - La serie",
+                "character": "Commissario Scialoja",
+                "emotion": "Professore"
+            },
+            {
+                "title": "Squadra antimafia - Palermo oggi",
+                "character": "Domenico Calcaterra",
+                "emotion": "Valium"
+            },
+            {
+                "title": "A Tor Bella Monaca non piove mai",
+                "character": "Mauro",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La caccia",
+                "character": "Luca",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Fino all'ultimo battito",
+                "character": "Diego Mancini",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Scusate se esisto!",
+                "character": "Nicola",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Calibro 9",
+                "character": "Fernando",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Io, l'altro",
+                "character": "Giuseppe",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "La bella società",
+                "character": "Giorgio",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Bastardi a mano armata",
+                "character": "Sergio",
+                "emotion": "Eros"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.5,
+            "Romeo": 0.2,
+            "Eros": 0.2,
+            "Professore": 0.1
+        }
+    },
+    {
+        "name": "Alessandro Preziosi",
+        "imdbId": "nm1164998",
+        "gender": "male",
+        "primaryEmotion": "Romeo",
+        "roles": [
+            {
+                "title": "Elisa di Rivombrosa",
+                "character": "Fabrizio Ristori",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Mine vaganti",
+                "character": "Antonio Cantone",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La vita bugiarda degli adulti",
+                "character": "Andrea",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Maschi contro femmine",
+                "character": "Diego",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Il volto di un'altra",
+                "character": "René",
                 "emotion": "Eros"
             },
             {
                 "title": "I Medici",
-                "character": "Marco Bello",
+                "character": "Filippo Brunelleschi",
                 "emotion": "Professore"
             },
             {
-                "title": "Fai bei sogni",
-                "character": "Padre di Massimo",
-                "emotion": "Scheggia"
+                "title": "Non mentire",
+                "character": "Andrea",
+                "emotion": "Valium"
             },
             {
-                "title": "Lo spazio bianco",
-                "character": "Pietro",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Il commissario Manara",
-                "character": "Luca Manara",
-                "emotion": "Eros"
-            },
-            {
-                "title": "Noi credevamo",
-                "character": "Felice Orsini",
+                "title": "L'amore rubato",
+                "character": "Padre di Marina",
                 "emotion": "Professore"
             },
             {
-                "title": "Per una notte",
-                "character": "Guido",
+                "title": "Nessuno come noi",
+                "character": "Umberto",
                 "emotion": "Romeo"
             },
             {
-                "title": "I leoni di Sicilia",
-                "character": "Ignazio Florio Sr.",
+                "title": "Black Out",
+                "character": "Giovanni",
                 "emotion": "Professore"
-            },
-            {
-                "title": "War Story",
-                "character": "Filippo",
-                "emotion": "Professore"
-            },
-            {
-                "title": "Tutti per 1 - 1 per tutti",
-                "character": "Cyrano de Bergerac",
-                "emotion": "Romeo"
             }
         ],
         "emotions": {
-            "Professore": 0.4,
-            "Eros": 0.2,
-            "Scheggia": 0.2,
-            "Romeo": 0.2
+            "Romeo": 0.3,
+            "Valium": 0.3,
+            "Professore": 0.3,
+            "Eros": 0.1
         }
     },
     {
-        "name": "Francesco Di Leva",
-        "imdbId": "nm1005234",
+        "name": "Domenico Diele",
+        "imdbId": "nm4090299",
         "gender": "male",
-        "primaryEmotion": "Scheggia",
+        "primaryEmotion": "Valium",
         "roles": [
             {
-                "title": "Nostalgia",
-                "character": "Don Luigi",
-                "emotion": "Professore"
-            },
-            {
-                "title": "Adagio",
-                "character": "Bruno",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Il sindaco del Rione Sanità",
-                "character": "Antonio Barracano",
-                "emotion": "Professore"
-            },
-            {
-                "title": "Una vita tranquilla",
-                "character": "Edoardo",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Noi credevamo",
-                "character": "Gennaro",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Paternostro",
-                "character": "Alfonso",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Metti la nonna in freezer",
-                "character": "Gennaro",
-                "emotion": "Eros"
-            },
-            {
-                "title": "L'ultimo piano",
-                "character": "Antonio",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Il delitto Mattarella",
-                "character": "Spatola",
-                "emotion": "Eros"
-            },
-            {
-                "title": "La terra dei santi",
-                "character": "Francesco",
-                "emotion": "Scheggia"
-            }
-        ],
-        "emotions": {
-            "Scheggia": 0.6,
-            "Professore": 0.2,
-            "Eros": 0.2,
-            "Romeo": 0.0
-        }
-    },
-    {
-        "name": "Paolo Pierobon",
-        "imdbId": "nm0682601",
-        "gender": "male",
-        "primaryEmotion": "Professore",
-        "roles": [
-            {
-                "title": "Esterno notte",
-                "character": "Aldo Moro",
-                "emotion": "Professore"
+                "title": "A.C.A.B.",
+                "character": "Adriano",
+                "emotion": "Valium"
             },
             {
                 "title": "1992 / 1993 / 1994",
-                "character": "Silvio Berlusconi",
+                "character": "Luca Pastore",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Anime nere",
+                "character": "Figlio di Luigi",
+                "emotion": "Valium"
+            },
+            {
+                "title": "La foresta di ghiaccio",
+                "character": "Pietro",
+                "emotion": "Valium"
+            },
+            {
+                "title": "In Treatment",
+                "character": "Sergio",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Io e lei",
+                "character": "Bernardo",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "L'ultimo piano",
+                "character": "Il Biondo",
                 "emotion": "Eros"
             },
+            {
+                "title": "Don't Waste Your Pretty",
+                "character": "Leo",
+                "emotion": "Romeo"
+            },
+            {
+                "title": "Un bacio",
+                "character": "Padre di Lorenzo",
+                "emotion": "Professore"
+            },
+            {
+                "title": "La guerra è finita",
+                "character": "Davide",
+                "emotion": "Professore"
+            }
+        ],
+        "emotions": {
+            "Valium": 0.5,
+            "Romeo": 0.2,
+            "Professore": 0.2,
+            "Eros": 0.1
+        }
+    },
+    {
+        "name": "Filippo Timi",
+        "imdbId": "nm0863763",
+        "gender": "male",
+        "primaryEmotion": "Eros",
+        "roles": [
             {
                 "title": "Vincere",
                 "character": "Benito Mussolini",
                 "emotion": "Eros"
             },
             {
-                "title": "L'ordine delle cose",
-                "character": "Corrado",
+                "title": "Vallanzasca - Gli angeli del male",
+                "character": "Enzo",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Ruggine",
+                "character": "Dottor Boldrini",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Come Dio comanda",
+                "character": "Rino Zena",
+                "emotion": "Eros"
+            },
+            {
+                "title": "I delitti del BarLume",
+                "character": "Massimo Viviani",
                 "emotion": "Professore"
             },
             {
-                "title": "Il capitale umano",
-                "character": "Psicologo",
+                "title": "La solitudine dei numeri primi",
+                "character": "Clown",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Sangue del mio sangue",
+                "character": "Il pazzo / Il conte",
+                "emotion": "Eros"
+            },
+            {
+                "title": "Un giorno perfetto",
+                "character": "Antonio",
+                "emotion": "Valium"
+            },
+            {
+                "title": "Le otto montagne",
+                "character": "Giovanni",
                 "emotion": "Professore"
             },
             {
-                "title": "La mafia uccide solo d'estate",
-                "character": "Generale",
-                "emotion": "Professore"
-            },
-            {
-                "title": "Romanzo di una strage",
-                "character": "Agente Digos",
-                "emotion": "Professore"
-            },
-            {
-                "title": "Come pecore in mezzo ai lupi",
-                "character": "Gaetano",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Il nome della rosa",
-                "character": "Fra' Dolcino",
-                "emotion": "Professore"
-            },
-            {
-                "title": "Orecchie",
-                "character": "Dottore",
-                "emotion": "Professore"
+                "title": "L'astrazione",
+                "character": "Poeta",
+                "emotion": "Romeo"
             }
         ],
         "emotions": {
-            "Professore": 0.7,
-            "Eros": 0.2,
-            "Scheggia": 0.1,
-            "Romeo": 0.0
+            "Eros": 0.4,
+            "Valium": 0.3,
+            "Professore": 0.2,
+            "Romeo": 0.1
         }
     },
     {
-        "name": "Filippo Scotti",
-        "imdbId": "nm10470295",
+        "name": "Raoul Bova",
+        "imdbId": "nm0100613",
         "gender": "male",
         "primaryEmotion": "Romeo",
         "roles": [
             {
-                "title": "È stata la mano di Dio",
-                "character": "Fabietto",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "Luna Nera",
-                "character": "Spiridione",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Il processo",
-                "character": "Valerio",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "Un posto al sole",
-                "character": "Vittorio Del Bue (giovane)",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "Come il vento",
-                "character": "Studente",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "1994",
-                "character": "Ragazzo Gay Pride",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "Il re muore",
-                "character": "Guardia",
-                "emotion": "Professore"
-            },
-            {
-                "title": "La fuga",
-                "character": "Filippo",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Io e Spotty",
-                "character": "Matteo",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "A-Tipico",
-                "character": "Mirco",
-                "emotion": "Romeo"
-            }
-        ],
-        "emotions": {
-            "Romeo": 0.7,
-            "Scheggia": 0.2,
-            "Professore": 0.1,
-            "Eros": 0.0
-        }
-    },
-    {
-        "name": "Andrea Carpenzano",
-        "imdbId": "nm8094686",
-        "gender": "male",
-        "primaryEmotion": "Eros",
-        "roles": [
-            {
-                "title": "La terra dell'abbastanza",
-                "character": "Manolo",
-                "emotion": "Eros"
-            },
-            {
-                "title": "Il campione",
-                "character": "Christian Ferro",
-                "emotion": "Eros"
-            },
-            {
-                "title": "Lovely Boy",
-                "character": "Nic",
-                "emotion": "Eros"
-            },
-            {
-                "title": "Guida romantica a posti perduti",
-                "character": "Michele",
-                "emotion": "Romeo"
-            },
-            {
-                "title": "Calcinculo",
-                "character": "Armando",
-                "emotion": "Eros"
-            },
-            {
-                "title": "Chiara",
+                "title": "Scusate se esisto!",
                 "character": "Francesco",
                 "emotion": "Romeo"
             },
             {
-                "title": "Tutto quello che vuoi",
-                "character": "Alessandro",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Un altro ferragosto",
-                "character": "Altiero",
-                "emotion": "Eros"
-            },
-            {
-                "title": "La svolta",
-                "character": "Ludovico",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Una famiglia",
-                "character": "Ragazzo",
-                "emotion": "Scheggia"
-            }
-        ],
-        "emotions": {
-            "Eros": 0.5,
-            "Scheggia": 0.3,
-            "Romeo": 0.2,
-            "Professore": 0.0
-        }
-    },
-    {
-        "name": "Libero De Rienzo",
-        "imdbId": "nm0214352",
-        "gender": "male",
-        "primaryEmotion": "Scheggia",
-        "roles": [
-            {
-                "title": "Santa Maradona",
-                "character": "Bart",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Smetto quando voglio",
-                "character": "Bartolomeo",
-                "emotion": "Scheggia"
-            },
-            {
-                "title": "Fortapàsc",
-                "character": "Giancarlo Siani",
+                "title": "Baarìa",
+                "character": "Giornalista",
                 "emotion": "Professore"
             },
             {
-                "title": "A/R Andata + Ritorno",
-                "character": "Dante",
+                "title": "Buongiorno papà",
+                "character": "Andrea",
+                "emotion": "Eros"
+            },
+            {
+                "title": "La finestra di fronte",
+                "character": "Lorenzo",
                 "emotion": "Romeo"
             },
             {
-                "title": "Sangue - La morte non esiste",
-                "character": "Fratello",
-                "emotion": "Scheggia"
+                "title": "Piccolo grande amore",
+                "character": "Marco",
+                "emotion": "Romeo"
             },
             {
-                "title": "Miele",
-                "character": "Rocco",
-                "emotion": "Scheggia"
+                "title": "Ultimo",
+                "character": "Roberto 'Ultimo' Di Stefano",
+                "emotion": "Valium"
             },
             {
-                "title": "La kryptonite nella borsa",
-                "character": "Salvatore",
-                "emotion": "Eros"
+                "title": "Nessuno mi può giudicare",
+                "character": "Giulio",
+                "emotion": "Romeo"
             },
             {
-                "title": "Cambio tutto!",
-                "character": "Valerio",
-                "emotion": "Eros"
+                "title": "Immaturi",
+                "character": "Giorgio",
+                "emotion": "Valium"
             },
             {
-                "title": "Una vita spericolata",
-                "character": "Ispettore",
+                "title": "Don Matteo",
+                "character": "Don Massimo",
                 "emotion": "Professore"
             },
             {
-                "title": "Resto umile a mondo visione",
-                "character": "Libero",
-                "emotion": "Scheggia"
+                "title": "Alien vs. Predator",
+                "character": "Sebastian de Rosa",
+                "emotion": "Professore"
             }
         ],
         "emotions": {
-            "Scheggia": 0.5,
-            "Professore": 0.2,
-            "Eros": 0.2,
-            "Romeo": 0.1
+            "Romeo": 0.4,
+            "Professore": 0.3,
+            "Valium": 0.2,
+            "Eros": 0.1
         }
     }
 ]
