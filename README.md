@@ -87,12 +87,3 @@ L'algoritmo che collega l'utente all'attore è il culmine del progetto.
 3.  **Matching Vettoriale:** Il sistema confronta l'**intero "vettore" di punteggi** dell'utente con quello di ogni attore candidato con la stessa emozione primaria. L'attore con il profilo più simile (la cui "impronta digitale emotiva" ha la distanza minore da quella dell'utente) viene selezionato come il "match" perfetto.
 
 Questo processo garantisce un risultato profondamente personalizzato.
-
-## Esempi di Utilizzo dei Dati
-
-Questi file JSON, oltre a essere il motore dell'applicazione web, possono essere usati per diversi scopi:
-
--   **Analisi per il Casting:** Un regista può filtrare tutti gli attori con `primaryEmotion: "Scheggia"` per poi analizzare i punteggi secondari (`emotions`) e trovare la sfumatura perfetta di "tormentato" che cerca per un ruolo.
--   **Supporto alla Sceneggiatura:** Uno sceneggiatore che sta creando un personaggio `Alfa` può studiare i ruoli ricorrenti di attrici come Paola Cortellesi o Kasia Smutniak per comprenderne le dinamiche.
--   **Studi Culturali e Data Science:** È possibile analizzare la prevalenza degli archetipi nel cinema italiano contemporaneo, confrontare le "impronte emotive" di generazioni diverse di attori o studiare le combinazioni di archetipi più comuni.
--   **Sviluppo di Esperienze Interattive:** L'uso primario è fungere da database per l'applicazione web del quiz, dove i profili degli utenti vengono abbinati a quelli degli attori.

@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Verona;
+    src: url(../public/assets/fonts/Verona-Regular.otf) format("opentype");
+}
+
+:root {
+    --red: #C5192D;
+    --black: #101010;
+    font-family: Verona;
+}

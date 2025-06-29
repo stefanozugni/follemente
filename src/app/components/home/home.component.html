@@ -1,1 +1,123 @@
-<p>home works!</p>
+<div class="main-container">
+
+    <div class="hero-section">
+        <div class="home-header">
+            <h1>
+                <span>Fo</span>
+                <img src="assets/images/title_icon.png" alt="Logo" class="logo">
+                <span>emente</span>
+            </h1>
+            <p>Cosa nascondiamo nei nostri pensieri?</p>
+        </div>
+
+        <div class="start-quiz-section">
+
+            <button *ngIf="!genderSelectionVisible" class="start-button" (click)="showGenderSelection()">
+                [ INIZIA IL VIAGGIO ]
+            </button>
+
+            <div *ngIf="genderSelectionVisible" class="gender-selection-container">
+                <p>Per quale profilo vuoi iniziare l'analisi?</p>
+                <div class="gender-buttons">
+                    <button class="gender-button" (click)="selectGenderAndStart('male')">Uomo</button>
+                    <button class="gender-button" (click)="selectGenderAndStart('female')">Donna</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="scroll-down-indicator">
+            <p>Scopri i tuoi archetipi</p>
+            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
+            </svg>
+        </div>
+    </div>
+
+    <div class="archetype-explainer-section">
+        <h2>I Quattro Volti della Mente</h2>
+        <p class="section-subtitle">
+            Ogni personalità è un equilibrio di 4 forze interiori. Ognuna ha un volto, un istinto e una funzione. <br>
+            Scopri i personaggi che interpretano la tua storia.
+        </p>
+
+        <div class="archetype-timeline">
+            <div class="archetype-row" #archetypeRow>
+                <div class="archetype-item from-left">
+                    <img src="assets/images/actors/giallini.jpg" alt="Marco Giallini">
+                    <div class="text-content">
+                        <h3>Professore</h3>
+                        <p>Rappresenta la logica, la regola e la conoscenza. È la parte che analizza, pianifica e cerca
+                            di comprendere il mondo attraverso la ragione.</p>
+                    </div>
+                </div>
+                <div class="archetype-item from-right">
+                    <img src="assets/images/actors/pandolfi.jpg" alt="Claudia Pandolfi">
+                    <div class="text-content">
+                        <h3>Alfa</h3>
+                        <p>Rappresenta la leadership, la forza e il controllo. È la donna che guida, organizza e
+                            gestisce con autorevolezza.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="archetype-row" #archetypeRow>
+                <div class="archetype-item from-left">
+                    <img src="assets/images/actors/lastrico.jpg" alt="Maurizio Lastrico">
+                    <div class="text-content">
+                        <h3>Romeo</h3>
+                        <p>Incarna il sentimento, l'idealismo romantico e l'empatia. È la parte che segue il cuore e
+                            mette i legami al di sopra della logica.</p>
+                    </div>
+                </div>
+                <div class="archetype-item from-right">
+                    <img src="assets/images/actors/puccini.jpg" alt="Vittoria Puccini">
+                    <div class="text-content">
+                        <h3>Giulietta</h3>
+                        <p>Rappresenta la sensibilità, l'amore puro e la cura. Può esprimere il sentimento in modo
+                            viscerale e potente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="archetype-row" #archetypeRow>
+                <div class="archetype-item from-left">
+                    <img src="assets/images/actors/santamaria.jpg" alt="Claudio Santamaria">
+                    <div class="text-content">
+                        <h3>Eros</h3>
+                        <p>È l'archetipo dell'istinto, della passione fisica e dell'azione impulsiva. Cerca l'intensità
+                            e la gratificazione immediata.</p>
+                    </div>
+                </div>
+                <div class="archetype-item from-right">
+                    <img src="assets/images/actors/fanelli.jpg" alt="Emanuela Fanelli">
+                    <div class="text-content">
+                        <h3>Trilli</h3>
+                        <p>Rappresenta l'impulso, la giocosità e la creatività caotica. Si manifesta attraverso la
+                            spontaneità e gesti non mediati dalla ragione.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="archetype-row" #archetypeRow>
+                <div class="archetype-item from-left">
+                    <img src="assets/images/actors/papaleo.jpg" alt="Rocco Papaleo">
+                    <div class="text-content">
+                        <h3>Scheggia</h3>
+                        <p>È l'archetipo protettivo della parte ferita e disillusa. Si manifesta con durezza o ritiro
+                            per evitare ulteriore sofferenza.</p>
+                    </div>
+                </div>
+                <div class="archetype-item from-right">
+                    <img src="assets/images/actors/giannetta.jpg" alt="Maria Chiara Giannetta">
+                    <div class="text-content">
+                        <h3>Valium</h3>
+                        <p>È l'archetipo protettivo che si manifesta con anestesia emotiva, distacco o paralisi di
+                            fronte a un'ansia troppo grande.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="final-cta-section">
+        <h2>Pronto a Incontrare Te Stesso?</h2>
+        <button class="start-button" (click)="showGenderSelection()">[ SCOPRI IL TUO CAST ]</button>
+    </div>
+</div>

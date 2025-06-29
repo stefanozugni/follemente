@@ -1,0 +1,58 @@
+<div class="results-container">
+
+    <div *ngIf="isLoading" class="loading-container">
+        <div class="loader"></div>
+        <h2>Analizziamo la tua psiche...</h2>
+        <p>Troviamo i volti che rappresentano le tue emozioni.</p>
+    </div>
+
+    <div *ngIf="!isLoading && finalCast" class="cast-container">
+        <div class="results-header">
+            <h1>Il Tuo Cast Emotivo</h1>
+            <p>Questi sono i 4 attori che meglio rappresentano le diverse parti della tua personalità.</p>
+        </div>
+
+        <div class="cast-grid">
+            <div class="cast-card" *ngIf="finalCast['Professore'] as actor">
+                <div class="archetype-title">Il Tuo Professore</div>
+                <img [src]="'assets/images/actors/' + actor.name.toLowerCase().replace(' ', '-') + '.jpg'"
+                    [alt]="actor.name">
+                <h2>{{ actor.name }}</h2>
+                <p>Come lui, la tua parte razionale analizza, controlla e cerca la verità, agendo come guida per te e
+                    per gli altri.</p>
+            </div>
+
+            <div class="cast-card" *ngIf="finalCast['Romeo'] as actor">
+                <div class="archetype-title">Il Tuo Romeo</div>
+                <img [src]="'assets/images/actors/' + actor.name.toLowerCase().replace(' ', '-') + '.jpg'"
+                    [alt]="actor.name">
+                <h2>{{ actor.name }}</h2>
+                <p>La tua parte sentimentale, come questo attore, vive di empatia, idealismo e mette i legami al di
+                    sopra di tutto.</p>
+            </div>
+
+            <div class="cast-card" *ngIf="finalCast['Eros'] as actor">
+                <div class="archetype-title">Il Tuo Eros</div>
+                <img [src]="'assets/images/actors/' + actor.name.toLowerCase().replace(' ', '-') + '.jpg'"
+                    [alt]="actor.name">
+                <h2>{{ actor.name }}</h2>
+                <p>Questa è la tua parte istintiva. Vive di passione, azione e ricerca l'intensità in ogni momento,
+                    proprio come lui.</p>
+            </div>
+
+            <div class="cast-card" *ngIf="finalCast['Scheggia'] as actor">
+                <div class="archetype-title">Il Tuo Scheggia</div>
+                <img [src]="'assets/images/actors/' + actor.name.toLowerCase().replace(' ', '-') + '.jpg'"
+                    [alt]="actor.name">
+                <h2>{{ actor.name }}</h2>
+                <p>Come lui nei suoi ruoli più iconici, la tua parte protettiva è dura e disillusa, uno scudo contro il
+                    dolore del mondo.</p>
+            </div>
+        </div>
+
+        <div class="results-footer">
+            <button class="share-button">CONDIVIDI IL TUO PROFILO</button>
+            <a routerLink="/" class="home-link">Torna alla Home</a>
+        </div>
+    </div>
+</div>
