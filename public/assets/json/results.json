@@ -1,0 +1,124 @@
+[
+    {
+        "TEST NUMERO 1": "1",
+        "PUNTEGGI EMOZIONI": {
+            "eros_trilli": 12,
+            "professore_alfa": 10,
+            "romeo_giulietta": 20,
+            "valium_scheggia": 8
+        },
+        "professore_alfa": {
+            "name": "Lino Guanciale",
+            "imdbId": "nm2362143",
+            "gender": "male",
+            "primaryEmotion": "Professore",
+            "emotions": {
+                "professore_alfa": 0.3,
+                "romeo_giulietta": 0.4,
+                "eros_trilli": 0.1,
+                "valium_scheggia": 0.2
+            },
+            "affinity": 0.1766352173265569
+        },
+        "romeo_giulietta": {
+            "name": "Edoardo Leo",
+            "imdbId": "nm0498492",
+            "gender": "male",
+            "primaryEmotion": "Romeo",
+            "emotions": {
+                "professore_alfa": 0.2,
+                "romeo_giulietta": 0.4,
+                "eros_trilli": 0.2,
+                "valium_scheggia": 0.2
+            },
+            "affinity": 0.05656854249492379
+        },
+        "eros_trilli": {
+            "name": "Alessandro Roja",
+            "imdbId": "nm2752171",
+            "gender": "male",
+            "primaryEmotion": "Eros",
+            "emotions": {
+                "professore_alfa": 0.2,
+                "romeo_giulietta": 0.2,
+                "eros_trilli": 0.4,
+                "valium_scheggia": 0.2
+            },
+            "affinity": 0.25922962793631443
+        },
+        "valium_scheggia": {
+            "name": "Rocco Papaleo",
+            "imdbId": "nm0660662",
+            "gender": "male",
+            "primaryEmotion": "Valium",
+            "emotions": {
+                "professore_alfa": 0,
+                "romeo_giulietta": 0.5,
+                "eros_trilli": 0.2,
+                "valium_scheggia": 0.3
+            },
+            "affinity": 0.26683328128252665
+        }
+    },
+    {
+        "TEST NUMERO 2": "2",
+        "PUNTEGGI EMOZIONI": {
+            "eros_trilli": 12,
+            "professore_alfa": 9,
+            "romeo_giulietta": 9,
+            "valium_scheggia": 18
+        },
+        "professore_alfa": {
+            "name": "Pierfrancesco Favino",
+            "imdbId": "nm0269528",
+            "gender": "male",
+            "primaryEmotion": "Professore",
+            "emotions": {
+                "professore_alfa": 0.3,
+                "romeo_giulietta": 0.2,
+                "eros_trilli": 0.1,
+                "valium_scheggia": 0.4
+            },
+            "affinity": 0.10458250331675945
+        },
+        "romeo_giulietta": {
+            "name": "Alessandro Preziosi",
+            "imdbId": "nm1164998",
+            "gender": "male",
+            "primaryEmotion": "Romeo",
+            "emotions": {
+                "professore_alfa": 0.3,
+                "romeo_giulietta": 0.3,
+                "eros_trilli": 0.1,
+                "valium_scheggia": 0.3
+            },
+            "affinity": 0.1686342195404005
+        },
+        "eros_trilli": {
+            "name": "Filippo Timi",
+            "imdbId": "nm0863763",
+            "gender": "male",
+            "primaryEmotion": "Eros",
+            "emotions": {
+                "professore_alfa": 0.2,
+                "romeo_giulietta": 0.1,
+                "eros_trilli": 0.4,
+                "valium_scheggia": 0.3
+            },
+            "affinity": 0.24685522072664376
+        },
+        "valium_scheggia": {
+            "name": "Michele Riondino",
+            "imdbId": "nm1662580",
+            "gender": "male",
+            "primaryEmotion": "Valium",
+            "emotions": {
+                "professore_alfa": 0.2,
+                "romeo_giulietta": 0.3,
+                "eros_trilli": 0.1,
+                "valium_scheggia": 0.4
+            },
+            "affinity": 0.15309310892394862
+        }
+    }
+]

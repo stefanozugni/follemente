@@ -13,8 +13,8 @@
         </div>
 
         <div class="cast-grid">
-            <div class="cast-card" *ngIf="finalCast['Professore'] as actor">
-                <div class="archetype-title">Il Tuo Professore</div>
+            <div class="cast-card" *ngIf="finalCast['professore_alfa'] as actor">
+                <div class="archetype-title">{{ gender === 'male' ? 'Il Tuo Professore' : 'La Tua Alfa' }}</div>
                 <img [src]="'assets/images/actors/' + actor.name.toLowerCase().replace(' ', '-') + '.jpg'"
                     [alt]="actor.name">
                 <h2>{{ actor.name }}</h2>
@@ -22,8 +22,8 @@
                     per gli altri.</p>
             </div>
 
-            <div class="cast-card" *ngIf="finalCast['Romeo'] as actor">
-                <div class="archetype-title">Il Tuo Romeo</div>
+            <div class="cast-card" *ngIf="finalCast['romeo_giulietta'] as actor">
+                <div class="archetype-title">{{ gender === 'male' ? 'Il Tuo Romeo' : 'La Tua Giulietta' }}</div>
                 <img [src]="'assets/images/actors/' + actor.name.toLowerCase().replace(' ', '-') + '.jpg'"
                     [alt]="actor.name">
                 <h2>{{ actor.name }}</h2>
@@ -31,8 +31,8 @@
                     sopra di tutto.</p>
             </div>
 
-            <div class="cast-card" *ngIf="finalCast['Eros'] as actor">
-                <div class="archetype-title">Il Tuo Eros</div>
+            <div class="cast-card" *ngIf="finalCast['eros_trilli'] as actor">
+                <div class="archetype-title">{{ gender === 'male' ? 'Il Tuo Eros' : 'La Tua Trilli' }}</div>
                 <img [src]="'assets/images/actors/' + actor.name.toLowerCase().replace(' ', '-') + '.jpg'"
                     [alt]="actor.name">
                 <h2>{{ actor.name }}</h2>
@@ -40,8 +40,8 @@
                     proprio come lui.</p>
             </div>
 
-            <div class="cast-card" *ngIf="finalCast['Scheggia'] as actor">
-                <div class="archetype-title">Il Tuo Scheggia</div>
+            <div class="cast-card" *ngIf="finalCast['valium_scheggia'] as actor">
+                <div class="archetype-title">{{ gender === 'male' ? 'Il Tuo Scheggia' : 'Il Tuo Valium' }}</div>
                 <img [src]="'assets/images/actors/' + actor.name.toLowerCase().replace(' ', '-') + '.jpg'"
                     [alt]="actor.name">
                 <h2>{{ actor.name }}</h2>

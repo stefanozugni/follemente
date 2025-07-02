@@ -40,6 +40,7 @@ export class ResultsComponent implements OnInit {
   public isLoading: boolean = true;
   public userScores: Scores | null = null;
   public finalCast: { [key: string]: Actor } = {};
+  public gender: 'male' | 'female' = 'male';
 
   private keyMap: { [key: string]: keyof Scores } = {
     Professore: 'professore_alfa', Alfa: 'professore_alfa',
@@ -60,6 +61,7 @@ export class ResultsComponent implements OnInit {
   calculateResults(): void {
     const scoresString = localStorage.getItem('quizScores');
     const selectedGender = localStorage.getItem('selectedGender') || 'male';
+    this.gender = (localStorage.getItem('selectedGender') as 'male' | 'female') || 'male';
 
     if (!scoresString) {
       this.router.navigate(['/quiz']);
