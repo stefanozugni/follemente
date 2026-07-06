@@ -1,0 +1,23 @@
+.testing { min-height: 100vh; padding: 2rem; background: #f3f1ed; font: 14px var(--sans); }
+header { display: flex; justify-content: space-between; align-items: center; }
+header p { margin: 0; color: var(--red); font-size: .7rem; font-weight: 800; text-transform: uppercase; }
+h1 { margin: .25rem 0 1.5rem; font: 2.5rem var(--serif); }
+h2 { margin: 0 0 1rem; font-size: 1rem; }
+.toolbar { margin-bottom: 1rem; padding: 1rem; display: flex; flex-wrap: wrap; gap: .5rem; background: white; border: 1px solid var(--border); border-radius: 10px; }
+button, select { padding: .55rem .7rem; background: white; border: 1px solid #ccc; border-radius: 6px; font: inherit; }
+button { cursor: pointer; }
+.debug-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(320px, .8fr); gap: 1rem; align-items: start; }
+.questions-panel, .panel { padding: 1.25rem; background: white; border: 1px solid var(--border); border-radius: 10px; }
+.questions-panel label { margin-bottom: .85rem; display: grid; gap: .35rem; }
+.questions-panel label span { font-size: .75rem; font-weight: 700; }
+.questions-panel select { width: 100%; text-overflow: ellipsis; }
+aside { display: grid; gap: 1rem; position: sticky; top: 1rem; }
+.metric { padding: .45rem 0; display: flex; justify-content: space-between; border-bottom: 1px solid #eee; }
+.warning { margin-top: .5rem; padding: .6rem; color: #7a4c00; background: #fff4d9; border-radius: 5px; }
+article { padding: .8rem 0; display: grid; grid-template-columns: 1fr auto; border-bottom: 1px solid #eee; }
+article p { grid-column: 1 / -1; margin: .3rem 0 0; color: #666; font-size: .75rem; line-height: 1.4; }
+.candidate-group { margin-top: 1rem; padding-top: 1rem; border-top: 2px solid #eee; }
+.candidate-group h3 { margin: 0 0 .5rem; display: flex; justify-content: space-between; font-size: .85rem; }
+.candidate-group h3 small { color: var(--red); font-weight: 700; }
+article.chosen { margin-inline: -.45rem; padding-inline: .45rem; background: #fff5f6; border-radius: 5px; }
+@media (max-width: 850px) { .testing { padding: 1rem; } .debug-grid { grid-template-columns: 1fr; } aside { position: static; } }

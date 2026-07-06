@@ -1,0 +1,55 @@
+<main class="testing">
+  <header>
+    <div><p>Solo sviluppo</p><h1>Testing algoritmo</h1></div>
+    <a routerLink="/">Chiudi</a>
+  </header>
+
+  <section class="toolbar">
+    <label>Dataset
+      <select [(ngModel)]="gender" (change)="recalculate()"><option value="male">Uomo</option><option value="female">Donna</option></select>
+    </label>
+    <button type="button" (click)="simulate('balanced')">Bilanciato</button>
+    <button type="button" (click)="simulate('random')">Casuale</button>
+    <button type="button" *ngFor="let key of keys" (click)="simulate(key)">Dominante {{ label(key) }}</button>
+  </section>
+
+  <div class="debug-grid">
+    <section class="questions-panel">
+      <h2>Risposte rapide</h2>
+      <label *ngFor="let question of questions">
+        <span>{{ question.id }}. {{ question.theme }}</span>
+        <select [(ngModel)]="answers[question.id]" (change)="recalculate()">
+          <option *ngFor="let answer of question.answers" [value]="answer.id">{{ answer.id }} — {{ answer.text }}</option>
+        </select>
+      </label>
+    </section>
+
+    <aside>
+      <section class="panel">
+        <h2>Profilo</h2>
+        <div class="metric" *ngFor="let key of keys">
+          <span>{{ label(key) }}</span><strong>{{ scores[key] }} · {{ profile.scores[key] | percent:'1.0-1' }}</strong>
+        </div>
+        <p>Primario: <strong>{{ label(profile.primary) }}</strong></p>
+        <p>Secondario: <strong>{{ label(profile.secondary) }}</strong></p>
+        <div class="warning" *ngIf="profile.isFlat">⚠ Profilo molto piatto</div>
+        <div class="warning" *ngIf="profile.isClose">⚠ Primi archetipi quasi pari</div>
+      </section>
+
+      <section class="panel">
+        <h2>Cast per archetipo</h2>
+        <div class="candidate-group" *ngFor="let key of keys">
+          <h3>{{ label(key) }}
+            <small *ngIf="emotionalCast">Scelto: {{ emotionalCast[key].name }}</small>
+          </h3>
+          <div class="warning" *ngIf="candidateWarnings[key]">⚠ {{ candidateWarnings[key] }}</div>
+          <article *ngFor="let actor of candidateRanks[key]; let index = index"
+            [class.chosen]="emotionalCast && emotionalCast[key].name === actor.name">
+            <strong>{{ index + 1 }}. {{ actor.name }}</strong><span>{{ actor.confidence }}%</span>
+            <p>{{ actor.explanation }} Primaria dataset: {{ actor.primaryEmotion }}.</p>
+          </article>
+        </div>
+      </section>
+    </aside>
+  </div>
+</main>

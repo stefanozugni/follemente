@@ -28,12 +28,14 @@ export class HomeComponent implements AfterViewInit {
   // Questo metodo viene chiamato dal primo pulsante per mostrare le opzioni
   showGenderSelection(): void {
     this.genderSelectionVisible = true;
+    window.setTimeout(() => {
+      document.getElementById('gender-selection')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
   }
 
   // Questo metodo salva la scelta e avvia il quiz
   selectGenderAndStart(gender: 'male' | 'female'): void {
     localStorage.setItem('selectedGender', gender);
-    console.log(`Sesso selezionato e salvato: ${gender}`);
     this.router.navigate(['/quiz']);
   }
 

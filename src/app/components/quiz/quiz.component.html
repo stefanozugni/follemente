@@ -4,31 +4,37 @@
         <ng-container *ngIf="!isQuizFinished && currentQuestion">
 
             <div class="quiz-header">
-                <p class="progress-text">Domanda {{ currentQuestionIndex + 1 }} di {{ questions.length }}</p>
+                <div class="progress-meta">
+                    <span>Profilo emotivo</span>
+                    <span>Domanda {{ currentQuestionIndex + 1 }} di {{ questions.length }}</span>
+                </div>
                 <div class="progress-bar-container">
                     <div class="progress-bar" [style.width.%]="(currentQuestionIndex + 1) / questions.length * 100">
                     </div>
                 </div>
-                <h2 class="theme">{{ currentQuestion.theme }}</h2>
-                <p class="scenario">{{ currentQuestion.scenario }}</p>
             </div>
 
             <div class="quiz-main-content">
                 <div class="question-body">
-                    <h3>{{ currentQuestion.question }}</h3>
+                    <p class="theme-label">{{ currentQuestion.theme }}</p>
+                    <h2 class="scenario-title">{{ currentQuestion.scenario }}</h2>
+                    <h3 class="question-prompt">{{ currentQuestion.question }}</h3>
                 </div>
 
                 <div class="answers-container">
-                    <button *ngFor="let answer of currentQuestion.answers" class="answer-button"
-                        [class.selected]="answer.id === selectedAnswerId" (click)="selectAnswer(answer.id)">
-                        {{ answer.text }}
+                    <button type="button" *ngFor="let answer of currentQuestion.answers" class="answer-button"
+                        [class.selected]="answer.id === selectedAnswerId"
+                        [attr.aria-pressed]="answer.id === selectedAnswerId"
+                        (click)="selectAnswer(answer)">
+                        <span class="answer-letter" aria-hidden="true">{{ answer.id }}</span>
+                        <span>{{ answer.text }}</span>
                     </button>
                 </div>
             </div>
 
             <div class="quiz-footer">
-                <button class="submit-button" [disabled]="!selectedAnswerId" (click)="submitAnswer()">
-                    AVANTI
+                <button type="button" class="submit-button" [disabled]="!selectedAnswerId" (click)="submitAnswer()">
+                    Avanti <span aria-hidden="true">→</span>
                 </button>
             </div>
 

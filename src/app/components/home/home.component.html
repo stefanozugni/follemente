@@ -1,6 +1,7 @@
 <div class="main-container">
 
-    <div class="hero-section">
+    <section class="hero-section">
+        <div class="hero-kicker">Un viaggio dentro le tue reazioni</div>
         <div class="home-header">
             <h1>
                 <span>Fo</span>
@@ -8,32 +9,70 @@
                 <span>emente</span>
             </h1>
             <p>Cosa nascondiamo nei nostri pensieri?</p>
+            <p class="hero-description">Rispondi a 12 situazioni emotive e scopri quali archetipi guidano il tuo modo di reagire.</p>
         </div>
 
         <div class="start-quiz-section">
 
-            <button *ngIf="!genderSelectionVisible" class="start-button" (click)="showGenderSelection()">
-                [ INIZIA IL VIAGGIO ]
+            <button type="button" *ngIf="!genderSelectionVisible" class="start-button" (click)="showGenderSelection()">
+                Inizia il viaggio <span aria-hidden="true">→</span>
             </button>
 
-            <div *ngIf="genderSelectionVisible" class="gender-selection-container">
-                <p>Per quale profilo vuoi iniziare l'analisi?</p>
+            <div *ngIf="genderSelectionVisible" class="gender-selection-container" id="gender-selection">
+                <p id="gender-label">Scegli il profilo che vuoi esplorare</p>
                 <div class="gender-buttons">
-                    <button class="gender-button" (click)="selectGenderAndStart('male')">Uomo</button>
-                    <button class="gender-button" (click)="selectGenderAndStart('female')">Donna</button>
+                    <button type="button" class="gender-button" (click)="selectGenderAndStart('male')">
+                        <span>Uomo</span><small>Professore · Romeo · Eros · Scheggia</small>
+                    </button>
+                    <button type="button" class="gender-button" (click)="selectGenderAndStart('female')">
+                        <span>Donna</span><small>Alfa · Giulietta · Trilli · Valium</small>
+                    </button>
                 </div>
             </div>
 
         </div>
-        <div class="scroll-down-indicator">
-            <p>Scopri i tuoi archetipi</p>
+        <a class="scroll-down-indicator" href="#come-funziona">
+            <span>Come funziona</span>
             <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
             </svg>
-        </div>
-    </div>
+        </a>
+    </section>
 
-    <div class="archetype-explainer-section">
+    <section class="home-method" id="come-funziona">
+        <div class="method-intro">
+            <p class="section-kicker">L’idea dietro il quiz</p>
+            <h2>E se le tue emozioni avessero un volto?</h2>
+            <p>Questo quiz nasce da un’idea semplice: immaginare quali attori potrebbero interpretare le parti che
+                abitano il nostro modo di reagire, amare, difenderci e scegliere.</p>
+        </div>
+
+        <div class="home-axis-grid" aria-label="I quattro assi emotivi">
+            <article><span>01</span><h3>Logica / Controllo</h3><strong>Professore · Alfa</strong><p>La forza che analizza, organizza e cerca lucidità.</p></article>
+            <article><span>02</span><h3>Sentimento / Connessione</h3><strong>Romeo · Giulietta</strong><p>La forza che cura i legami e segue l’empatia.</p></article>
+            <article><span>03</span><h3>Istinto / Impulso</h3><strong>Eros · Trilli</strong><p>La forza che agisce, desidera e cerca intensità.</p></article>
+            <article><span>04</span><h3>Protezione / Ritiro</h3><strong>Scheggia · Valium</strong><p>La forza che crea distanza per proteggere ciò che è vulnerabile.</p></article>
+        </div>
+
+        <div class="method-notes">
+            <article>
+                <p class="section-kicker">01 · Il quiz</p>
+                <h3>Risposte come ricette miste</h3>
+                <p>Ogni risposta non appartiene mai a un solo archetipo. Una scelta può essere razionale, ma
+                    contenere anche protezione; può sembrare impulsiva, ma nascondere bisogno di connessione.</p>
+            </article>
+            <article>
+                <p class="section-kicker">02 · Il risultato</p>
+                <h3>Un cast, non un’etichetta</h3>
+                <p>Il quiz costruisce quattro match: un interprete per la parte razionale, sentimentale, istintiva e
+                    protettiva. Ogni scelta nasce dal confronto tra le distribuzioni emotive.</p>
+            </article>
+        </div>
+
+        <a routerLink="/metodo" class="method-link">Esplora il metodo completo <span aria-hidden="true">→</span></a>
+    </section>
+
+    <section class="archetype-explainer-section" id="archetipi">
         <h2>I Quattro Volti della Mente</h2>
         <p class="section-subtitle">
             Ogni personalità è un equilibrio di 4 forze interiori. Ognuna ha un volto, un istinto e una funzione. <br>
@@ -114,10 +153,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="final-cta-section">
         <h2>Pronto a Incontrare Te Stesso?</h2>
-        <button class="start-button" (click)="showGenderSelection()">[ SCOPRI IL TUO CAST ]</button>
+        <button type="button" class="start-button" (click)="showGenderSelection()">Scopri il tuo cast <span aria-hidden="true">→</span></button>
     </div>
 </div>

@@ -1,10 +1,30 @@
 @font-face {
-    font-family: Verona;
-    src: url(../public/assets/fonts/Verona-Regular.otf) format("opentype");
+  font-family: Verona;
+  src: url("../public/assets/fonts/Verona-Regular.otf") format("opentype");
+  font-display: swap;
 }
 
 :root {
-    --red: #C5192D;
-    --black: #101010;
-    font-family: Verona;
+  --bg: #f7f4ef;
+  --surface: #ffffff;
+  --text: #111111;
+  --muted: #77736f;
+  --red: #c9152e;
+  --red-dark: #8f0f20;
+  --border: rgba(0, 0, 0, .10);
+  --serif: Verona, Georgia, "Times New Roman", serif;
+  --sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --radius: 12px;
+  --radius-lg: 22px;
+  --shadow: 0 24px 70px rgba(35, 24, 20, .10);
 }
+
+* { box-sizing: border-box; }
+html { background: var(--bg); scroll-behavior: smooth; }
+body { margin: 0; color: var(--text); background: var(--bg); font-family: var(--sans); }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible {
+  outline: 3px solid rgba(201, 21, 46, .32);
+  outline-offset: 3px;
+}
+::selection { color: white; background: var(--red); }

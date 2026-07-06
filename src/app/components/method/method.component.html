@@ -1,0 +1,92 @@
+<main class="method-page">
+  <nav class="method-nav" aria-label="Navigazione metodo">
+    <a routerLink="/" class="brand">Follemente</a>
+    <a routerLink="/" fragment="come-funziona">Torna al quiz</a>
+  </nav>
+
+  <header class="method-hero">
+    <p class="eyebrow">Dossier · Il processo</p>
+    <h1>Il metodo dietro il quiz</h1>
+    <p>Questo quiz nasce come esperimento narrativo e psicologico: trasformare le emozioni interiori in un cast cinematografico personale.</p>
+  </header>
+
+  <article class="method-content">
+    <section class="origin">
+      <span class="chapter-number">Prologo</span>
+      <div>
+        <h2>Da un film a un sistema</h2>
+        <p>Dopo la visione di <em>Follemente</em> nasce una domanda: quali attori potrebbero interpretare le emozioni che abitano ciascuno di noi? Quella scintilla è diventata un lavoro di definizione, ricerca e calibrazione.</p>
+        <blockquote>Non cercare un’etichetta, ma costruire un cast interiore capace di raccontare le nostre contraddizioni.</blockquote>
+      </div>
+    </section>
+
+    <section class="chapter" id="archetipi">
+      <span class="chapter-number">Capitolo 1</span>
+      <h2>Gli archetipi</h2>
+      <p class="lead">Gli assi emotivi sono quattro. Gli archetipi sono otto perché ogni forza ha una declinazione maschile e femminile: cambia il nome, non la funzione che osserviamo.</p>
+      <div class="axis-grid">
+        <article *ngFor="let axis of axes">
+          <span>{{ axis.number }}</span>
+          <h3>{{ axis.title }}</h3>
+          <strong>{{ axis.pair }}</strong>
+          <p>{{ axis.text }}</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="chapter split">
+      <div>
+        <span class="chapter-number">Capitolo 2</span>
+        <h2>Le risposte come ricette miste</h2>
+      </div>
+      <div>
+        <p>Ogni risposta non appartiene mai a un solo archetipo. Una scelta può essere razionale, ma contenere anche protezione; può sembrare impulsiva, ma nascondere bisogno di connessione.</p>
+        <p>Per questo ogni opzione distribuisce punti su più assi. Il risultato non è un verdetto, ma una composizione percentuale sfumata.</p>
+        <div class="recipe" aria-label="Esempio di ricetta emotiva">
+          <span style="--weight: 60%">Sentimento <b>60%</b></span>
+          <span style="--weight: 25%">Controllo <b>25%</b></span>
+          <span style="--weight: 15%">Protezione <b>15%</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter split">
+      <div>
+        <span class="chapter-number">Capitolo 3</span>
+        <h2>Risposte difficili, non risposte sbagliate</h2>
+      </div>
+      <div>
+        <p>Quando una risposta sembra descriverci in modo negativo, tendiamo a evitarla. È il problema delle risposte socialmente desiderabili: scegliamo ciò che vorremmo essere, non sempre ciò che facciamo.</p>
+        <p>Le opzioni più difficili sono quindi scritte come strategie, non come difetti. Chi si chiude, prende distanza o controlla non viene giudicato: il quiz prova a leggere quale funzione emotiva sta proteggendo quella scelta.</p>
+      </div>
+    </section>
+
+    <section class="chapter split">
+      <div>
+        <span class="chapter-number">Capitolo 4</span>
+        <h2>Il dataset degli attori</h2>
+      </div>
+      <div>
+        <p>Attori e attrici sono stati osservati attraverso personaggi, ruoli e ricorrenze emotive. A ciascuno è stata assegnata la stessa distribuzione sui quattro assi usata dal quiz.</p>
+        <p>Il processo è stato iterativo: casi ambigui e risultati troppo uniformi hanno portato a raffinare le definizioni, distinguendo per esempio il sentimento viscerale dall’impulso puro e la sofferenza dalla semplice freddezza.</p>
+      </div>
+    </section>
+
+    <section class="chapter matching">
+      <span class="chapter-number">Capitolo 5</span>
+      <h2>Il matching: un vero cast emotivo</h2>
+      <p class="lead">Il sistema non cerca un unico volto definitivo. Come in un film corale, ogni attore interpreta una parte diversa di te.</p>
+      <ol>
+        <li><span>01</span> Le dodici risposte generano quattro percentuali.</li>
+        <li><span>02</span> Ogni asse crea una rosa di interpreti compatibili.</li>
+        <li><span>03</span> I profili completi vengono confrontati, non soltanto il valore dominante.</li>
+        <li><span>04</span> Il risultato riunisce quattro interpreti: razionale, sentimentale, istintivo e protettivo.</li>
+      </ol>
+    </section>
+  </article>
+
+  <footer class="method-cta">
+    <p>Ora che conosci il processo, incontra il tuo cast.</p>
+    <a routerLink="/">Inizia il viaggio <span aria-hidden="true">→</span></a>
+  </footer>
+</main>

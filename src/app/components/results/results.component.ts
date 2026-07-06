@@ -1,32 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule } from '@angular/router';
-
 import maleActorsData from '../../../../public/assets/json/male.json';
 import femaleActorsData from '../../../../public/assets/json/female.json';
-
-// Interfacce per una tipizzazione pulita
-interface Scores {
-  professore_alfa: number;
-  romeo_giulietta: number;
-  eros_trilli: number;
-  valium_scheggia: number;
-}
-
-interface Actor {
-  name: string;
-  imdbId: string;
-  primaryEmotion: string;
-  emotions: Scores;
-  affinity?: number;
-}
-
-interface RawActor {
-  name: string;
-  imdbId: string;
-  primaryEmotion: string;
-  emotions: { [key: string]: number };
-}
+import { ARCHETYPE_KEYS, ActorMatch, ArchetypeKey, EmotionalCast, ProfileResult, RawActor, Scores } from '../../models/quiz.models';
+import { ProfileMatcherService } from '../../services/profile-matcher.service';
 
 @Component({
   selector: 'app-results',
@@ -36,111 +14,66 @@ interface RawActor {
   styleUrls: ['./results.component.scss']
 })
 export class ResultsComponent implements OnInit {
-
-  public isLoading: boolean = true;
-  public userScores: Scores | null = null;
-  public finalCast: { [key: string]: Actor } = {};
-  public gender: 'male' | 'female' = 'male';
-
-  private keyMap: { [key: string]: keyof Scores } = {
-    Professore: 'professore_alfa', Alfa: 'professore_alfa',
-    Romeo: 'romeo_giulietta', Giulietta: 'romeo_giulietta',
-    Eros: 'eros_trilli', Trilli: 'eros_trilli',
-    Scheggia: 'valium_scheggia', Valium: 'valium_scheggia'
+  readonly archetypeKeys = ARCHETYPE_KEYS;
+  isLoading = true;
+  profile?: ProfileResult;
+  emotionalCast?: EmotionalCast;
+  gender: 'male' | 'female' = 'male';
+  percentages: Scores = {
+    professore_alfa: 0, romeo_giulietta: 0, eros_trilli: 0, valium_scheggia: 0
   };
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, public matcher: ProfileMatcherService) {}
 
   ngOnInit(): void {
-    setTimeout(() => {
-      this.calculateResults();
-      this.isLoading = false;
-    }, 2500);
-  }
-
-  calculateResults(): void {
-    const scoresString = localStorage.getItem('quizScores');
-    const selectedGender = localStorage.getItem('selectedGender') || 'male';
-    this.gender = (localStorage.getItem('selectedGender') as 'male' | 'female') || 'male';
-
-    if (!scoresString) {
+    const raw = localStorage.getItem('quizScores');
+    this.gender = localStorage.getItem('selectedGender') === 'female' ? 'female' : 'male';
+    if (!raw) {
       this.router.navigate(['/quiz']);
       return;
     }
-
-    const rawUserScores = JSON.parse(scoresString);
-    const userScores = this.normalizeScores(rawUserScores);
-    this.userScores = userScores;
-
-    const rawActors: RawActor[] = (selectedGender === 'male') ? maleActorsData : femaleActorsData;
-    const transformedActors: Actor[] = rawActors.map(actor => this.transformActor(actor));
-
-    // ========= NUOVA LOGICA DI RAGGRUPPAMENTO (PIÙ ROBUSTA) =========
-    const actorsByArchetype: { [key: string]: Actor[] } = {
-      professore_alfa: [],
-      romeo_giulietta: [],
-      eros_trilli: [],
-      valium_scheggia: []
-    };
-
-    // Raggruppa gli attori in base al loro archetipo primario, usando la nostra chiave unificata
-    transformedActors.forEach(actor => {
-      const primaryArchetypeKey = this.keyMap[actor.primaryEmotion as keyof typeof this.keyMap];
-      if (primaryArchetypeKey) {
-        actorsByArchetype[primaryArchetypeKey].push(actor);
-      }
-    });
-    // ==============================================================
-
-    // Ora eseguiamo il matching per ogni asse, usando le nostre liste raggruppate
-    for (const archetypeKey in actorsByArchetype) {
-      const candidates = actorsByArchetype[archetypeKey as keyof Scores];
-      if (candidates && candidates.length > 0) {
-        const bestMatch = this.findBestMatch(userScores, candidates);
-        this.finalCast[archetypeKey] = bestMatch;
-      }
+    try {
+      const scores = JSON.parse(raw) as Scores;
+      const actors = (this.gender === 'male' ? maleActorsData : femaleActorsData) as RawActor[];
+      this.profile = this.matcher.analyze(scores);
+      this.percentages = this.toPercentages(this.profile.scores);
+      this.emotionalCast = this.matcher.buildEmotionalCast(scores, actors);
+      localStorage.setItem('finalCast', JSON.stringify(this.emotionalCast));
+      window.setTimeout(() => this.isLoading = false, 650);
+    } catch {
+      localStorage.removeItem('quizScores');
+      this.router.navigate(['/quiz']);
     }
-
-    console.log("IL TUO CAST FINALE:", this.finalCast);
   }
 
-  transformActor(actor: RawActor): Actor {
-    const newEmotions: Scores = {
-      professore_alfa: 0, romeo_giulietta: 0, eros_trilli: 0, valium_scheggia: 0
-    };
-    for (const oldKey in actor.emotions) {
-      const newKey = this.keyMap[oldKey as keyof typeof this.keyMap];
-      if (newKey) {
-        newEmotions[newKey] = actor.emotions[oldKey];
-      }
-    }
-    return { ...actor, emotions: this.normalizeScores(newEmotions) };
+  label(key: ArchetypeKey): string {
+    return this.matcher.labels[key][this.gender];
   }
 
-  normalizeScores(scores: any): Scores {
-    const total = Object.values(scores as { [key: string]: number }).reduce((sum, score) => sum + score, 0);
-    if (total === 0) return scores;
-    const normalized: any = {};
-    for (const key in scores) {
-      normalized[key] = scores[key] / total;
-    }
-    return normalized as Scores;
+  percentage(key: ArchetypeKey): number {
+    return this.percentages[key];
   }
 
-  // Funzione semplificata che lavora su una lista già filtrata
-  findBestMatch(userScores: Scores, candidates: Actor[]): Actor {
-    candidates.forEach(actor => {
-      let sumOfSquares = 0;
-      for (const key in userScores) {
-        const userScore = userScores[key as keyof Scores];
-        const actorScore = actor.emotions[key as keyof Scores] || 0;
-        sumOfSquares += Math.pow(userScore - actorScore, 2);
-      }
-      actor.affinity = Math.sqrt(sumOfSquares);
-    });
+  narrative(): string {
+    if (!this.profile) return '';
+    return `Il tuo profilo è guidato da ${this.matcher.axisLabels[this.profile.primary].toLowerCase()}, ` +
+      `ma tutte e quattro le forze partecipano al tuo modo di sentire. Per ciascuna abbiamo scelto un interprete ` +
+      `confrontando la tua intera distribuzione emotiva con quella dei candidati.`;
+  }
 
-    return candidates.reduce((best, current) =>
-      (best.affinity! < current.affinity!) ? best : current
-    );
+  getActorImagePath(name: string): string {
+    return `assets/images/actors/${name.toLowerCase().replace(/\s+/g, '-')}.jpg`;
+  }
+
+  private toPercentages(scores: Scores): Scores {
+    const result = this.matcher.emptyScores();
+    const exact = this.archetypeKeys.map(key => ({ key, value: scores[key] * 100 }));
+    exact.forEach(item => result[item.key] = Math.floor(item.value));
+    let remainder = 100 - this.archetypeKeys.reduce((sum, key) => sum + result[key], 0);
+    exact
+      .sort((a, b) => (b.value % 1) - (a.value % 1))
+      .slice(0, remainder)
+      .forEach(item => result[item.key]++);
+    return result;
   }
 }
